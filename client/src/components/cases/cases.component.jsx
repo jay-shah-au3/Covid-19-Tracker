@@ -16,30 +16,46 @@ function Cases(){
     const [filterData, setFilterData] = useState({});
     const [tableData, setTableData] = useState([]);
     const [historyData, setHistoryData] = useState([]);
+    const [pastData, setPastData] = useState([]);
+    const [restData, setRestData] = useState({});
+    const [title, setTitle] = useState("All States");
 
     const handleChange = (e) => {
         if(e.target.value==='table'){
             setFilterData({});
             setTableData(data);
+            setPastData(historyData);
+            setTitle("All States");
         }
         else{
-            data.forEach((item)=>{
-                if(item.state===e.target.value)
-                    setFilterData(item);
-                    setTableData([]);
+            let itemDetails = {};
+            data.every((item)=>{
+                if(item.state===e.target.value){
+                    itemDetails = {...item};
+                    return false;
+                }
+                else 
+                    return true;
             });
+            const state = itemDetails.state;
+            setTableData([]);
+            setFilterData(itemDetails);
+            setPastData(restData[state]);
+            setTitle(state);
         }
     }
 
     useEffect(()=>{
         const getData = async() =>{
-            let {states, data, total, latest, historyData} = await fetchData(API_ORIGIN_URL+'/cases');
+            let {states, data, total, latest, historyData,...restObj} = await fetchData(API_ORIGIN_URL+'/cases');
             setStates(states);
             setData(data);
             setTotal(total);
             setLatest(latest);
             setTableData(data);
             setHistoryData(historyData);
+            setPastData(historyData);
+            setRestData(restObj);
         }
         getData();
     },[]);
@@ -47,7 +63,6 @@ function Cases(){
     const len = latest.length;
     if(len>0)
         str = latest[len-1];
-
     return(
         <Fragment>
             <div style={{textAlign:"center"}}>
@@ -65,13 +80,13 @@ function Cases(){
                 }
             </div>
             {
-                historyData.length===0?''
+                pastData.length===0?''
                 :
                 <>
-                    <Header title="History"/>
+                    <Header title={`${title} History`}/>
                     <CardContainer>                    
                         {
-                            historyData.map( item=>{                    
+                            pastData.map( item=>{                    
                                 return(
                                     <CardTile key={item.cured+"who"} props={item}/>
                                 )
@@ -79,7 +94,7 @@ function Cases(){
                         }
                     </CardContainer>
                 </>
-            }
+            }            
         </Fragment>
 
     );

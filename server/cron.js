@@ -1,15 +1,10 @@
 const cron = require('node-cron');
 const {scrapeData, scraperTwo} = require('./scraper');
 
-// module.exports = cron.schedule('*/60 * * * *', ()=>{
-//     console.log("Running after every 60 minute");
-//     scrapeData();
-// });
-
 module.exports = {
     cron1(){
-        cron.schedule('*/60 * * * *', ()=>{
-            console.log("Running after every 60 minutes");
+        cron.schedule('*/30 * * * *', ()=>{
+            console.log("Running after every 30 minutes");
             scrapeData();
         });        
     },

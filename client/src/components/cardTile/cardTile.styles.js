@@ -1,7 +1,20 @@
 import styled from 'styled-components';
 
 export const CardTileContainer = styled.div`
-    border:1px solid black;
     margin-bottom:25px;
-    padding:10px;
+    border-radius:15px;    
+    padding:0px;
+    font-family:monospace;
+    font-size:1.2em;
+    h2 {
+        margin:0px;
+        padding:15px;
+        color:white;
+        background-color:#55BCC9;
+        border-radius:25px;
+    }
+    p{
+        padding-left:15px;
+        padding-right:15px;
+    }
 `

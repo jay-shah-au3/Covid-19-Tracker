@@ -43,15 +43,15 @@ async function scrapeData(){
                 obj["state"] = state;
                 obj["confirmedIndian"] = $(children[2]).text().replace(/\*/g,' ');
                 obj["confirmedForeign"] = $(children[3]).text().replace(/\*/g,' ');
-                obj["cured"] = $(children[4]).text();
-                obj["death"] = $(children[5]).text();
+                obj["cured"] = $(children[4]).text().replace(/\#/g,'');
+                obj["death"] = $(children[5]).text().replace(/\#/g,'');
                 arr.push(obj);
             }
             else{
                 total["confirmedIndian"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
                 total["confirmedForeign"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
-                total["cured"] = $(children[3]).text().replace(/\\n/g,'').trim();
-                total["death"] = $(children[4]).text().replace(/\\n/g,'').trim();
+                total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
                 if(!_.isEqual(total,dbTotal))
                     change = true;
             }
@@ -76,23 +76,37 @@ async function scraperTwo(){
     const trLen = $('table>tbody>tr').length;
     const tr = $('div.table-responsive>table>tbody>tr');
     const total = {};
+
+    const dbStates = db.get('states').value();
+    for(let state of dbStates){
+        if(!db.has(state).value())
+            db.set(state,[]).write();
+    }
+
     tr.each((index, el)=>{
         let children = $(el).children();
         if($(children).length >=4){
             if(index!==trLen-1){
-                console.log();
+                const obj = {};
+                let state = $(children[1]).text();
+                obj["confirmedIndian"] = $(children[2]).text().replace(/\*/g,' ');
+                obj["confirmedForeign"] = $(children[3]).text().replace(/\*/g,' ');
+                obj["cured"] = $(children[4]).text();
+                obj["death"] = $(children[5]).text().replace(/\#/g,'');
+                obj["date"] = Date.now()-86400000;                
+                db.get(state).push(obj).write();
             }
             else{
                 total["confirmedIndian"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
                 total["confirmedForeign"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
                 total["cured"] = $(children[3]).text().replace(/\\n/g,'').trim();
-                total["death"] = $(children[4]).text().replace(/\\n/g,'').trim();
+                total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
                 total["date"] = Date.now()-86400000;                
             }
         }
     });
     
-    db.get('historyData').push(total).write();
+    // db.get('historyData').push(total).write();
 }
 
 module.exports = {scrapeData, scraperTwo};

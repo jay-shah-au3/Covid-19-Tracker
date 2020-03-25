@@ -3,14 +3,15 @@ import Moment from 'react-moment';
 import { CardTileContainer } from './cardTile.styles';
 
 function CardTile({props}){
+    const {cured, death, confirmedIndian, confirmedForeign} = props
     return(
         <CardTileContainer>
-            <h3>Date : <Moment format="DD/MM/YYYY">{parseInt(props.date)}</Moment></h3>
-            <hr/>
-            <p style={{color:"#8884d8"}}>Total Confirmed Cases (Indian National) : {props.confirmedIndian}</p>
-            <p style={{color:"#ffd700"}}>Total Confirmed Cases (Indian National) : {props.confirmedForeign}</p>
-            <p style={{color:"#82ca9d"}}>Total Cured : {props.cured}</p>
-            <p style={{color:"#ff6347"}}>Total Death : {props.death}</p>
+            <h2>Date : <Moment format="DD/MM/YYYY">{parseInt(props.date)}</Moment></h2>
+            <p style={{color:"#8884d8",fontWeight:"bold"}}>Total Confirmed Cases (Indian National) : {confirmedIndian}</p>
+            <p style={{color:"#f2d602",fontWeight:"bold"}}>Total Confirmed Cases (Foreign National) : {confirmedForeign}</p>
+            <p style={{color:"#82ca9d",fontWeight:"bold"}}>Total Cured : {cured}</p>
+            <p style={{color:"#ED2B33FF",fontWeight:"bold"}}>Total Death : {death}</p>
+            <p style={{color:"black",fontWeight:"bold"}}>Death Rate : {((parseInt(death)/(parseInt(confirmedIndian)+parseInt(confirmedForeign)))*100).toFixed(2)}%</p>
         </CardTileContainer>
     )
 }

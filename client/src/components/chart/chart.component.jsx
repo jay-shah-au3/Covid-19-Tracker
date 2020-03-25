@@ -1,7 +1,6 @@
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, Label, ResponsiveContainer} from 'recharts';
 function Chart({data}){
-    console.log("inside charts")
     const d = [];
     d.push(data);
     return(

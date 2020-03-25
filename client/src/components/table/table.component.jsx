@@ -11,7 +11,7 @@ function Table({data, total}){
                             <TableRowHeader>No</TableRowHeader>
                             <TableRowHeader>States</TableRowHeader>
                             <TableRowHeader>Confirmed(Indian National)</TableRowHeader>
-                            <TableRowHeader>Confirmed(Indian National)</TableRowHeader>
+                            <TableRowHeader>Confirmed(Foreign National)</TableRowHeader>
                             <TableRowHeader>Cured</TableRowHeader>
                             <TableRowHeader>Death</TableRowHeader>
                         </TableRow>
