@@ -16,8 +16,7 @@ async function scrapeData(){
 
     const html = await getHTML();
     const $ = cheerio.load(html);
-    const trLen = $('table>tbody>tr').length;
-    const tr = $('div.table-responsive>table>tbody>tr');
+    const tr = $('div[id="cases"]').find('div.table-responsive>table>tbody>tr');
     const states=[]; 
     const arr = [];    
     const total = {};
@@ -31,10 +30,11 @@ async function scrapeData(){
     tr.each((index, el)=>{
         let children = $(el).children();
         if($(children).length >=4){
-            if(index!==trLen-1){
+            if(!isNaN( parseInt( $(children[0]).text() ) ) ){
                 const obj = {};
                 let state = $(children[1]).text()
                 if(!dbStates.includes(state)){
+                    console.log("state = ",state);
                     latest.push(state);
                     change = true;
                 }
@@ -73,8 +73,7 @@ async function scrapeData(){
 async function scraperTwo(){
     const html = await getHTML();
     const $ = cheerio.load(html);
-    const trLen = $('table>tbody>tr').length;
-    const tr = $('div.table-responsive>table>tbody>tr');
+    const tr = $('div[id="cases"]').find('div.table-responsive>table>tbody>tr');
     const total = {};
 
     const dbStates = db.get('states').value();
@@ -86,9 +85,9 @@ async function scraperTwo(){
     tr.each((index, el)=>{
         let children = $(el).children();
         if($(children).length >=4){
-            if(index!==trLen-1){
+            let state = $(children[1]).text();
+            if(!isNaN( parseInt( $(children[0]).text() ) ) && (state==='West Bengal' || state==='Uttar Pradesh')){
                 const obj = {};
-                let state = $(children[1]).text();
                 obj["confirmedIndian"] = $(children[2]).text().replace(/\*/g,' ');
                 obj["confirmedForeign"] = $(children[3]).text().replace(/\*/g,' ');
                 obj["cured"] = $(children[4]).text();
@@ -105,7 +104,7 @@ async function scraperTwo(){
             }
         }
     });
-    
+    // console.log(total);
     // db.get('historyData').push(total).write();
 }
 

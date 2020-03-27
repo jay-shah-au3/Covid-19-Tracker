@@ -20,7 +20,7 @@ function Cases(){
     const [restData, setRestData] = useState({});
     const [title, setTitle] = useState("All States");
 
-    const handleChange = (e) => {
+    function handleChange(e){
         if(e.target.value==='table'){
             setFilterData({});
             setTableData(data);
@@ -63,7 +63,7 @@ function Cases(){
     const len = latest.length;
     if(len>0)
         str = latest[len-1];
-    return(
+        return(
         <Fragment>
             <div style={{textAlign:"center"}}>
                 <h3>Latest State affected due to Covid-19 in India is {str}</h3>
@@ -80,15 +80,15 @@ function Cases(){
                 }
             </div>
             {
-                pastData.length===0?''
+                pastData===undefined || pastData.length===0?''
                 :
                 <>
                     <Header title={`${title} History`}/>
                     <CardContainer>                    
                         {
-                            pastData.map( item=>{                    
+                            pastData.map( (item,index) =>{                    
                                 return(
-                                    <CardTile key={item.cured+"who"} props={item}/>
+                                    <CardTile keys={`${title}`+index+"who"} props={item}/>
                                 )
                             })
                         }

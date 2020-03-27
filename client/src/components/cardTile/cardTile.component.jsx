@@ -2,10 +2,10 @@ import React from 'react';
 import Moment from 'react-moment';
 import { CardTileContainer } from './cardTile.styles';
 
-function CardTile({props}){
+function CardTile({props,keys}){
     const {cured, death, confirmedIndian, confirmedForeign} = props
     return(
-        <CardTileContainer>
+        <CardTileContainer key={keys}>
             <h2>Date : <Moment format="DD/MM/YYYY">{parseInt(props.date)}</Moment></h2>
             <p style={{color:"#8884d8",fontWeight:"bold"}}>Total Confirmed Cases (Indian National) : {confirmedIndian}</p>
             <p style={{color:"#f2d602",fontWeight:"bold"}}>Total Confirmed Cases (Foreign National) : {confirmedForeign}</p>
