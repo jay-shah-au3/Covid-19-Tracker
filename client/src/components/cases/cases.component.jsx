@@ -6,6 +6,7 @@ import Table from '../table/table.component';
 import CardTile from '../cardTile/cardTile.component';
 import { CardContainer } from './cases.styles';
 import Header from '../header/header.component';
+import TotalCases from './totalCases.component';
 
 function Cases(){
 
@@ -19,6 +20,7 @@ function Cases(){
     const [pastData, setPastData] = useState([]);
     const [restData, setRestData] = useState({});
     const [title, setTitle] = useState("All States");
+    const [newCases, setNewCases] = useState(0);
 
     function handleChange(e){
         if(e.target.value==='table'){
@@ -56,16 +58,25 @@ function Cases(){
             setHistoryData(historyData);
             setPastData(historyData);
             setRestData(restObj);
+            const len = historyData.length;
+            if(len>1){
+                const {confirmedIndian, confirmedForeign} = historyData[len-1];                
+                const oldTotal = parseInt(confirmedIndian)+parseInt(confirmedForeign); 
+                const newTotal = parseInt(total.confirmedIndian) + parseInt(total.confirmedForeign);
+                setNewCases(newTotal - oldTotal);
+            }
         }
         getData();
     },[]);
     let str = ""
     const len = latest.length;
+    let totalCases = parseInt(total.confirmedIndian) + parseInt(total.confirmedForeign);
     if(len>0)
         str = latest[len-1];
         return(
         <Fragment>
             <div style={{textAlign:"center"}}>
+                <TotalCases totalCases={totalCases} newCases={newCases}/>
                 <h3>Latest State affected due to Covid-19 in India is {str}</h3>
                 <select id="states" onChange={(e)=>handleChange(e)} style={{marginTop:"30px", marginBottom:"30px",padding:"10px"}}>
                     <option key="table" value="table" defaultValue>All States</option>
@@ -88,7 +99,7 @@ function Cases(){
                         {
                             pastData.map( (item,index) =>{                    
                                 return(
-                                    <CardTile keys={`${title}`+index+"who"} props={item}/>
+                                    <CardTile key={`${title}`+index+"who"} props={item}/>
                                 )
                             })
                         }

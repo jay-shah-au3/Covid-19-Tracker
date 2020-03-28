@@ -7,6 +7,7 @@ export const TableRow = styled.tr``;
 
 export const TableContainer = styled.table`
     border-collapse: collapse;
+    font-weight:bold;
     text-align:center;
     margin-left:auto;
     margin-right:auto;
@@ -21,13 +22,11 @@ export const TableContainer = styled.table`
 export const TableBody = styled.tbody``;
 
 export const TableRowHeader = styled.th`
-    border: 1px solid #55BCC9;
     padding:10px;    
-    background-color:#55BCC9;
+    background-color:#55BCC9;    
     color:white;
 `;
 
 export const TableRowCell = styled.td`
-    border: 1px solid #55BCC9;
     padding:10px;    
 `;

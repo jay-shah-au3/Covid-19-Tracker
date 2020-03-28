@@ -26,7 +26,7 @@ async function scrapeData(){
     const dbData = db.get('data').value();
     const dbTotal = db.get('total').value();
     let change = false;
-
+    
     tr.each((index, el)=>{
         let children = $(el).children();
         if($(children).length >=4){
@@ -57,7 +57,6 @@ async function scrapeData(){
             }
         }
     });
-
     if( change || _.differenceBy(arr , dbData, 'confirmedIndian').length > 0 || _.differenceBy(arr , dbData, 'confirmedForeign').length > 0)
         change = true;
 
@@ -82,30 +81,53 @@ async function scraperTwo(){
             db.set(state,[]).write();
     }
 
-    tr.each((index, el)=>{
-        let children = $(el).children();
-        if($(children).length >=4){
-            let state = $(children[1]).text();
-            if(!isNaN( parseInt( $(children[0]).text() ) ) && (state==='West Bengal' || state==='Uttar Pradesh')){
-                const obj = {};
-                obj["confirmedIndian"] = $(children[2]).text().replace(/\*/g,' ');
-                obj["confirmedForeign"] = $(children[3]).text().replace(/\*/g,' ');
-                obj["cured"] = $(children[4]).text();
-                obj["death"] = $(children[5]).text().replace(/\#/g,'');
-                obj["date"] = Date.now()-86400000;                
-                db.get(state).push(obj).write();
+    if(tr.html()===null){
+        const dbData = db.get('data').value();
+        const dbTotal = db.get('total').value();
+        dbData.forEach((el,index)=>{
+            let state = el.state;
+            const obj = {};
+            obj["confirmedIndian"] = el.confirmedIndian;
+            obj["confirmedForeign"] = el.confirmedForeign;
+            obj["cured"] = el.cured;
+            obj["death"] = el.death;
+            obj["date"] = Date.now()-86400000;
+            db.get(state).push(obj).write();
+        });
+        total["confirmedIndian"] = dbTotal.confirmedIndian;
+        total["confirmedForeign"] = dbTotal.confirmedForeign;
+        total["cured"] = dbTotal.cured;
+        total["death"] = dbTotal.death;
+        total["date"] = Date.now()-86400000;
+        db.get('historyData').push(total).write();    
+    }
+    else{
+        tr.each((index, el)=>{
+            let children = $(el).children();
+            console.log($(children).length);
+            if($(children).length >=4){
+                console.log(parseInt( $(children[0]).text()) );             
+                let state = $(children[1]).text();
+                if(!isNaN( parseInt( $(children[0]).text() ) )){
+                    const obj = {};
+                    obj["confirmedIndian"] = $(children[2]).text().replace(/\*/g,' ');
+                    obj["confirmedForeign"] = $(children[3]).text().replace(/\*/g,' ');
+                    obj["cured"] = $(children[4]).text();
+                    obj["death"] = $(children[5]).text().replace(/\#/g,'');
+                    obj["date"] = Date.now()-86400000;                
+                    db.get(state).push(obj).write();
+                }
+                else{
+                    total["confirmedIndian"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
+                    total["confirmedForeign"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                    total["cured"] = $(children[3]).text().replace(/\\n/g,'').trim();
+                    total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                    total["date"] = Date.now()-86400000;
+                    db.get('historyData').push(total).write();
+                }
             }
-            else{
-                total["confirmedIndian"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
-                total["confirmedForeign"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
-                total["cured"] = $(children[3]).text().replace(/\\n/g,'').trim();
-                total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                total["date"] = Date.now()-86400000;                
-            }
-        }
-    });
-    // console.log(total);
-    // db.get('historyData').push(total).write();
+        });
+    }
 }
 
 module.exports = {scrapeData, scraperTwo};

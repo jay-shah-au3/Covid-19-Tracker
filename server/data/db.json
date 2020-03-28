@@ -32,7 +32,7 @@
     {
       "no": "1",
       "state": "Andaman and Nicobar Islands",
-      "confirmedIndian": "1",
+      "confirmedIndian": "2",
       "confirmedForeign": "0",
       "cured": "0",
       "death": "0"
@@ -40,7 +40,7 @@
     {
       "no": "2",
       "state": "Andhra Pradesh",
-      "confirmedIndian": "12",
+      "confirmedIndian": "14",
       "confirmedForeign": "0",
       "cured": "1",
       "death": "0"
@@ -48,7 +48,7 @@
     {
       "no": "3",
       "state": "Bihar",
-      "confirmedIndian": "6",
+      "confirmedIndian": "9",
       "confirmedForeign": "0",
       "cured": "0",
       "death": "1"
@@ -72,7 +72,7 @@
     {
       "no": "6",
       "state": "Delhi",
-      "confirmedIndian": "35",
+      "confirmedIndian": "38",
       "confirmedForeign": "1",
       "cured": "6",
       "death": "1"
@@ -88,7 +88,7 @@
     {
       "no": "8",
       "state": "Gujarat",
-      "confirmedIndian": "42",
+      "confirmedIndian": "44",
       "confirmedForeign": "1",
       "cured": "0",
       "death": "3"
@@ -96,7 +96,7 @@
     {
       "no": "9",
       "state": "Haryana",
-      "confirmedIndian": "16",
+      "confirmedIndian": "19",
       "confirmedForeign": "14",
       "cured": "11",
       "death": "0"
@@ -112,7 +112,7 @@
     {
       "no": "11",
       "state": "Jammu and Kashmir",
-      "confirmedIndian": "13",
+      "confirmedIndian": "18",
       "confirmedForeign": "0",
       "cured": "1",
       "death": "1"
@@ -128,7 +128,7 @@
     {
       "no": "13",
       "state": "Kerala",
-      "confirmedIndian": "129",
+      "confirmedIndian": "165",
       "confirmedForeign": "8",
       "cured": "11",
       "death": "0"
@@ -144,18 +144,18 @@
     {
       "no": "15",
       "state": "Madhya Pradesh",
-      "confirmedIndian": "20",
+      "confirmedIndian": "30",
       "confirmedForeign": "0",
       "cured": "0",
-      "death": "1"
+      "death": "2"
     },
     {
       "no": "16",
       "state": "Maharashtra",
-      "confirmedIndian": "127",
+      "confirmedIndian": "177",
       "confirmedForeign": "3",
-      "cured": "15",
-      "death": "4"
+      "cured": "25",
+      "death": "5"
     },
     {
       "no": "17",
@@ -176,7 +176,7 @@
     {
       "no": "19",
       "state": "Odisha",
-      "confirmedIndian": "2",
+      "confirmedIndian": "3",
       "confirmedForeign": "0",
       "cured": "0",
       "death": "0"
@@ -192,15 +192,15 @@
     {
       "no": "21",
       "state": "Punjab",
-      "confirmedIndian": "33",
+      "confirmedIndian": "38",
       "confirmedForeign": "0",
-      "cured": "0",
+      "cured": "1",
       "death": "1"
     },
     {
       "no": "22",
       "state": "Rajasthan",
-      "confirmedIndian": "39",
+      "confirmedIndian": "46",
       "confirmedForeign": "2",
       "cured": "3",
       "death": "0"
@@ -208,15 +208,15 @@
     {
       "no": "23",
       "state": "Tamil Nadu",
-      "confirmedIndian": "23",
+      "confirmedIndian": "32",
       "confirmedForeign": "6",
-      "cured": "1",
+      "cured": "2",
       "death": "1"
     },
     {
       "no": "24",
       "state": "Telengana",
-      "confirmedIndian": "35",
+      "confirmedIndian": "38",
       "confirmedForeign": "10",
       "cured": "1",
       "death": "0"
@@ -232,7 +232,7 @@
     {
       "no": "26",
       "state": "Uttar Pradesh",
-      "confirmedIndian": "40",
+      "confirmedIndian": "44",
       "confirmedForeign": "1",
       "cured": "11",
       "death": "0"
@@ -240,17 +240,17 @@
     {
       "no": "27",
       "state": "West Bengal",
-      "confirmedIndian": "10",
+      "confirmedIndian": "15",
       "confirmedForeign": "0",
       "cured": "0",
       "death": "1"
     }
   ],
   "total": {
-    "confirmedIndian": "677",
+    "confirmedIndian": "826",
     "confirmedForeign": "47",
-    "cured": "67",
-    "death": "17"
+    "cured": "79",
+    "death": "19"
   },
   "latest": [
     "Bihar",
@@ -294,6 +294,13 @@
       "cured": "45",
       "death": "16",
       "date": 1585162860627
+    },
+    {
+      "confirmedIndian": "677",
+      "confirmedForeign": "47",
+      "cured": "67",
+      "death": "17",
+      "date": 1585277820678
     }
   ],
   "Andhra Pradesh": [
@@ -317,6 +324,13 @@
       "cured": "1",
       "death": "0",
       "date": 1585162020685
+    },
+    {
+      "confirmedIndian": "12",
+      "confirmedForeign": "0",
+      "cured": "1",
+      "death": "0",
+      "date": 1585277820649
     }
   ],
   "Bihar": [
@@ -340,6 +354,13 @@
       "cured": "0",
       "death": "1",
       "date": 1585162020688
+    },
+    {
+      "confirmedIndian": "6",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "1",
+      "date": 1585277820651
     }
   ],
   "Chhattisgarh": [
@@ -363,6 +384,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162020692
+    },
+    {
+      "confirmedIndian": "6",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820653
     }
   ],
   "Delhi": [
@@ -386,6 +414,13 @@
       "cured": "6",
       "death": "1",
       "date": 1585162080666
+    },
+    {
+      "confirmedIndian": "35",
+      "confirmedForeign": "1",
+      "cured": "6",
+      "death": "1",
+      "date": 1585277820654
     }
   ],
   "Gujarat": [
@@ -409,6 +444,13 @@
       "cured": "0",
       "death": "3",
       "date": 1585162080672
+    },
+    {
+      "confirmedIndian": "42",
+      "confirmedForeign": "1",
+      "cured": "0",
+      "death": "3",
+      "date": 1585277820656
     }
   ],
   "Haryana": [
@@ -432,6 +474,13 @@
       "cured": "11",
       "death": "0",
       "date": 1585162080674
+    },
+    {
+      "confirmedIndian": "16",
+      "confirmedForeign": "14",
+      "cured": "11",
+      "death": "0",
+      "date": 1585277820657
     }
   ],
   "Himachal Pradesh": [
@@ -455,6 +504,13 @@
       "cured": "0",
       "death": "1",
       "date": 1585162080675
+    },
+    {
+      "confirmedIndian": "3",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "1",
+      "date": 1585277820658
     }
   ],
   "Karnataka": [
@@ -478,6 +534,13 @@
       "cured": "3",
       "death": "2",
       "date": 1585162080680
+    },
+    {
+      "confirmedIndian": "55",
+      "confirmedForeign": "0",
+      "cured": "3",
+      "death": "2",
+      "date": 1585277820660
     }
   ],
   "Kerala": [
@@ -501,6 +564,13 @@
       "cured": "6",
       "death": "0",
       "date": 1585162080682
+    },
+    {
+      "confirmedIndian": "129",
+      "confirmedForeign": "8",
+      "cured": "11",
+      "death": "0",
+      "date": 1585277820663
     }
   ],
   "Madhya Pradesh": [
@@ -524,6 +594,13 @@
       "cured": "0",
       "death": "1",
       "date": 1585162080686
+    },
+    {
+      "confirmedIndian": "20",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "1",
+      "date": 1585277820665
     }
   ],
   "Maharashtra": [
@@ -547,6 +624,13 @@
       "cured": "1",
       "death": "3",
       "date": 1585162080688
+    },
+    {
+      "confirmedIndian": "127",
+      "confirmedForeign": "3",
+      "cured": "15",
+      "death": "4",
+      "date": 1585277820666
     }
   ],
   "Manipur": [
@@ -570,6 +654,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162080690
+    },
+    {
+      "confirmedIndian": "1",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820667
     }
   ],
   "Odisha": [
@@ -593,6 +684,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162080695
+    },
+    {
+      "confirmedIndian": "2",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820669
     }
   ],
   "Puducherry": [
@@ -616,6 +714,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162080697
+    },
+    {
+      "confirmedIndian": "1",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820669
     }
   ],
   "Punjab": [
@@ -639,6 +744,13 @@
       "cured": "0",
       "death": "1",
       "date": 1585162080699
+    },
+    {
+      "confirmedIndian": "33",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "1",
+      "date": 1585277820670
     }
   ],
   "Rajasthan": [
@@ -662,6 +774,13 @@
       "cured": "3",
       "death": "0",
       "date": 1585162080701
+    },
+    {
+      "confirmedIndian": "39",
+      "confirmedForeign": "2",
+      "cured": "3",
+      "death": "0",
+      "date": 1585277820671
     }
   ],
   "Tamil Nadu": [
@@ -685,6 +804,13 @@
       "cured": "1",
       "death": "1",
       "date": 1585162080704
+    },
+    {
+      "confirmedIndian": "23",
+      "confirmedForeign": "6",
+      "cured": "1",
+      "death": "1",
+      "date": 1585277820672
     }
   ],
   "Telengana": [
@@ -708,6 +834,13 @@
       "cured": "1",
       "death": "0",
       "date": 1585162080706
+    },
+    {
+      "confirmedIndian": "35",
+      "confirmedForeign": "10",
+      "cured": "1",
+      "death": "0",
+      "date": 1585277820673
     }
   ],
   "Chandigarh": [
@@ -737,7 +870,7 @@
       "confirmedForeign": "0",
       "cured": "0",
       "death": "0",
-      "date": 1585162080663
+      "date": 1585277820652
     }
   ],
   "Jammu and Kashmir": [
@@ -761,6 +894,13 @@
       "cured": "1",
       "death": "1",
       "date": 1585162080678
+    },
+    {
+      "confirmedIndian": "13",
+      "confirmedForeign": "0",
+      "cured": "1",
+      "death": "1",
+      "date": 1585277820659
     }
   ],
   "Ladakh": [
@@ -784,6 +924,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162080683
+    },
+    {
+      "confirmedIndian": "13",
+      "confirmedForeign": "0",
+      "cured": "3",
+      "death": "0",
+      "date": 1585277820664
     }
   ],
   "Uttar Pradesh": [
@@ -807,6 +954,13 @@
       "cured": "11",
       "death": "0",
       "date": 1585164960596
+    },
+    {
+      "confirmedIndian": "40",
+      "confirmedForeign": "1",
+      "cured": "11",
+      "death": "0",
+      "date": 1585277820676
     }
   ],
   "Uttarakhand": [
@@ -830,6 +984,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162080708
+    },
+    {
+      "confirmedIndian": "4",
+      "confirmedForeign": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820675
     }
   ],
   "West Bengal": [
@@ -853,6 +1014,13 @@
       "cured": "0",
       "death": "1",
       "date": 1585164960598
+    },
+    {
+      "confirmedIndian": "10",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "1",
+      "date": 1585277820677
     }
   ],
   "Mizoram": [
@@ -869,6 +1037,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162080692
+    },
+    {
+      "confirmedIndian": "1",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820668
     }
   ],
   "Andaman and Nicobar Islands": [
@@ -878,6 +1053,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162020683
+    },
+    {
+      "confirmedIndian": "1",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820647
     }
   ],
   "Goa": [
@@ -887,6 +1069,13 @@
       "cured": "0",
       "death": "0",
       "date": 1585162080669
+    },
+    {
+      "confirmedIndian": "3",
+      "confirmedForeign": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1585277820655
     }
   ]
 }

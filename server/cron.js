@@ -8,6 +8,7 @@ module.exports = {
             scrapeData();
         });        
     },
+
     cron2(){
         cron.schedule('0 0 0 * * *', ()=>{
             console.log("Running every midnight");
