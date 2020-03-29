@@ -4,7 +4,7 @@ export const CardTileContainer = styled.div`
     margin-bottom:25px;
     border-radius:15px;    
     padding:10px;
-    margin:25px;
+    width:100%;
     font-family:monospace;
     font-size:1.2em;
     h2 {

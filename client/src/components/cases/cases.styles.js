@@ -4,6 +4,5 @@ export const CardContainer = styled.div`
     margin-top:30px;
     display:flex;
     flex-wrap: wrap;
-    flex: 1 1;
-    margin: 10px;    
+    flex : 1 1;
 `;

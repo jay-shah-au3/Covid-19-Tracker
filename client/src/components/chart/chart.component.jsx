@@ -23,8 +23,8 @@ function Chart({data}){
                 </YAxis>
                 <Tooltip/>
                 <Legend/>
-                <Bar dataKey="confirmedIndian" name="Confirmed Cases (Indian National)" fill="#8884d8" />
-                <Bar dataKey="confirmedForeign" name="Confirmed Cases (Foreign National)" fill="#ffd700" />
+                <Bar dataKey="confirmedCases" name="Confirmed Cases" fill="#8884d8" />
+                {/* <Bar dataKey="confirmedForeign" name="Confirmed Cases (Foreign National)" fill="#ffd700" /> */}
                 <Bar dataKey="cured" name="Cured" fill="#82ca9d" />
                 <Bar dataKey="death" name="Death" fill="#ff6347" />
             </BarChart>

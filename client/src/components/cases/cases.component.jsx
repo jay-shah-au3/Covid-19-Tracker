@@ -60,9 +60,9 @@ function Cases(){
             setRestData(restObj);
             const len = historyData.length;
             if(len>1){
-                const {confirmedIndian, confirmedForeign} = historyData[len-1];                
-                const oldTotal = parseInt(confirmedIndian)+parseInt(confirmedForeign); 
-                const newTotal = parseInt(total.confirmedIndian) + parseInt(total.confirmedForeign);
+                const {confirmedCases} = historyData[len-1];     
+                const oldTotal = parseInt(confirmedCases); 
+                const newTotal = parseInt(total.confirmedCases);
                 setNewCases(newTotal - oldTotal);
             }
         }
@@ -70,7 +70,7 @@ function Cases(){
     },[]);
     let str = ""
     const len = latest.length;
-    let totalCases = parseInt(total.confirmedIndian) + parseInt(total.confirmedForeign);
+    let totalCases = parseInt(total.confirmedCases);
     if(len>0)
         str = latest[len-1];
         return(
@@ -87,7 +87,7 @@ function Cases(){
                     }
                 </select>
                 {
-                    tableData.length===0?<Chart data={filterData}/>:<Table total={total} data={tableData}/>
+                    tableData.length===0?<Chart data={filterData}/>:<Table restData = {restData} total={total} data={tableData}/>
                 }
             </div>
             {
