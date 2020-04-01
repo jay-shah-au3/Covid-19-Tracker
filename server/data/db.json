@@ -2,6 +2,7 @@
   "states": [
     "Andhra Pradesh",
     "Andaman and Nicobar Islands",
+    "Assam",
     "Bihar",
     "Chandigarh",
     "Chhattisgarh",
@@ -11,6 +12,7 @@
     "Haryana",
     "Himachal Pradesh",
     "Jammu and Kashmir",
+    "Jharkhand",
     "Karnataka",
     "Kerala",
     "Ladakh",
@@ -33,203 +35,219 @@
       "no": "1",
       "state": "Andhra Pradesh",
       "confirmedCases": "83",
-      "cured": "1",
+      "cured": "0",
       "death": "0"
     },
     {
       "no": "2",
       "state": "Andaman and Nicobar Islands",
       "confirmedCases": "10",
-      "cured": "0",
+      "cured": "1",
       "death": "0"
     },
     {
       "no": "3",
+      "state": "Assam",
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0"
+    },
+    {
+      "no": "4",
       "state": "Bihar",
       "confirmedCases": "23",
       "cured": "0",
       "death": "1"
     },
     {
-      "no": "4",
-      "state": "Chandigarh",
-      "confirmedCases": "13",
-      "cured": "0",
-      "death": "0"
-    },
-    {
       "no": "5",
-      "state": "Chhattisgarh",
-      "confirmedCases": "9",
+      "state": "Chandigarh",
+      "confirmedCases": "16",
       "cured": "0",
       "death": "0"
     },
     {
       "no": "6",
+      "state": "Chhattisgarh",
+      "confirmedCases": "9",
+      "cured": "2",
+      "death": "0"
+    },
+    {
+      "no": "7",
       "state": "Delhi",
-      "confirmedCases": "120",
+      "confirmedCases": "152",
       "cured": "6",
       "death": "2"
     },
     {
-      "no": "7",
+      "no": "8",
       "state": "Goa",
       "confirmedCases": "5",
       "cured": "0",
       "death": "0"
     },
     {
-      "no": "8",
+      "no": "9",
       "state": "Gujarat",
-      "confirmedCases": "74",
+      "confirmedCases": "82",
       "cured": "5",
       "death": "6"
     },
     {
-      "no": "9",
+      "no": "10",
       "state": "Haryana",
       "confirmedCases": "43",
       "cured": "21",
       "death": "0"
     },
     {
-      "no": "10",
+      "no": "11",
       "state": "Himachal Pradesh",
       "confirmedCases": "3",
       "cured": "0",
       "death": "1"
     },
     {
-      "no": "11",
+      "no": "12",
       "state": "Jammu and Kashmir",
-      "confirmedCases": "55",
+      "confirmedCases": "62",
       "cured": "2",
       "death": "2"
     },
     {
-      "no": "12",
+      "no": "13",
+      "state": "Jharkhand",
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0"
+    },
+    {
+      "no": "14",
       "state": "Karnataka",
       "confirmedCases": "101",
       "cured": "8",
       "death": "3"
     },
     {
-      "no": "13",
+      "no": "15",
       "state": "Kerala",
       "confirmedCases": "241",
       "cured": "23",
       "death": "2"
     },
     {
-      "no": "14",
+      "no": "16",
       "state": "Ladakh",
       "confirmedCases": "13",
       "cured": "3",
       "death": "0"
     },
     {
-      "no": "15",
+      "no": "17",
       "state": "Madhya Pradesh",
-      "confirmedCases": "47",
+      "confirmedCases": "66",
       "cured": "0",
       "death": "3"
     },
     {
-      "no": "16",
+      "no": "18",
       "state": "Maharashtra",
       "confirmedCases": "302",
       "cured": "39",
       "death": "9"
     },
     {
-      "no": "17",
+      "no": "19",
       "state": "Manipur",
       "confirmedCases": "1",
       "cured": "0",
       "death": "0"
     },
     {
-      "no": "18",
+      "no": "20",
       "state": "Mizoram",
       "confirmedCases": "1",
       "cured": "0",
       "death": "0"
     },
     {
-      "no": "19",
+      "no": "21",
       "state": "Odisha",
       "confirmedCases": "4",
       "cured": "0",
       "death": "0"
     },
     {
-      "no": "20",
+      "no": "22",
       "state": "Puducherry",
-      "confirmedCases": "1",
-      "cured": "0",
+      "confirmedCases": "3",
+      "cured": "1",
       "death": "0"
     },
     {
-      "no": "21",
+      "no": "23",
       "state": "Punjab",
-      "confirmedCases": "41",
+      "confirmedCases": "42",
       "cured": "1",
       "death": "3"
     },
     {
-      "no": "22",
+      "no": "24",
       "state": "Rajasthan",
       "confirmedCases": "93",
       "cured": "3",
       "death": "0"
     },
     {
-      "no": "23",
+      "no": "25",
       "state": "Tamil Nadu",
-      "confirmedCases": "124",
-      "cured": "4",
+      "confirmedCases": "234",
+      "cured": "6",
       "death": "1"
     },
     {
-      "no": "24",
+      "no": "26",
       "state": "Telengana",
-      "confirmedCases": "94",
+      "confirmedCases": "96",
       "cured": "1",
       "death": "3"
     },
     {
-      "no": "25",
+      "no": "27",
       "state": "Uttarakhand",
       "confirmedCases": "7",
       "cured": "2",
       "death": "0"
     },
     {
-      "no": "26",
+      "no": "28",
       "state": "Uttar Pradesh",
       "confirmedCases": "103",
       "cured": "14",
-      "death": "0"
+      "death": "2"
     },
     {
-      "no": "27",
+      "no": "29",
       "state": "West Bengal",
-      "confirmedCases": "26",
-      "cured": "0",
-      "death": "2"
+      "confirmedCases": "37",
+      "cured": "6",
+      "death": "3"
     }
   ],
   "total": {
-    "confirmedCases": "1637",
-    "cured": "133",
-    "death": "38"
+    "confirmedCases": "1834",
+    "cured": "144",
+    "death": "41"
   },
   "latest": [
     "Bihar",
     "Manipur",
     "Mizoram",
     "Goa",
-    "Andaman and Nicobar Islands"
+    "Andaman and Nicobar Islands",
+    "Assam",
+    "Jharkhand"
   ],
   "historyData": [
     {

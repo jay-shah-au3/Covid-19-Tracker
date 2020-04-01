@@ -4,11 +4,11 @@ function Chart({data}){
     const d = [];
     d.push(data);
     return(
-        <ResponsiveContainer  width='100%' height={500} style={{overflowX:"hidden"}}>
+        <ResponsiveContainer  width='100%' height={500} >
             <BarChart
                 data={d}
                 margin={{
-                top: 100,bottom: 50,left:20
+                top: 100,bottom: 50,left:20, right:30
                 }}
             >
                 <CartesianGrid strokeDasharray="3 3" />

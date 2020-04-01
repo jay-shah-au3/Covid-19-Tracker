@@ -2,11 +2,12 @@ import React,{useEffect, useState, Fragment} from 'react';
 import {API_ORIGIN_URL} from '../../api/config';
 import {fetchData} from '../../api/api';
 import Chart from '../chart/chart.component';
+import LineChartComponent from '../chart/line-chart.component';
 import Table from '../table/table.component';
 import CardTile from '../cardTile/cardTile.component';
-import { CardContainer } from './cases.styles';
 import Header from '../header/header.component';
 import TotalCases from './totalCases.component';
+import { CardContainer } from './cases.styles';
 
 function Cases(){
 
@@ -94,6 +95,8 @@ function Cases(){
                 pastData===undefined || pastData.length===0?''
                 :
                 <>
+                    <LineChartComponent color="#8884d8" data={pastData} type="confirmedCases" name="Confirmed Cases"/>
+                    <LineChartComponent color="#ff6347" data={pastData} type="death" name="Death Cases"/>
                     <Header title={`${title} History`}/>
                     <CardContainer>                    
                         {
