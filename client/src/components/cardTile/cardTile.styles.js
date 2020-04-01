@@ -2,9 +2,10 @@ import styled from 'styled-components';
 
 export const CardTileContainer = styled.div`
     margin-bottom:25px;
+    margin:25px;
     border-radius:15px;    
     padding:10px;
-    width:100%;
+    width:28.5%;
     font-family:monospace;
     font-size:1.2em;
     h2 {
@@ -17,5 +18,9 @@ export const CardTileContainer = styled.div`
     p{
         padding-left:15px;
         padding-right:15px;
+    }
+
+    @media (max-width:768px){
+        width:100%;
     }
 `

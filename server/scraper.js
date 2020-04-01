@@ -16,12 +16,11 @@ async function scrapeData(){
 
     const html = await getHTML();
     const $ = cheerio.load(html);
-    const tr = $('div[id="cases"]').find('div.table-responsive>table>tbody>tr');
+    const tr = $('div').find('div.table-responsive>table>tbody>tr');
     const states=[]; 
     const arr = [];    
     const total = {};
     const latest = [];
-
     const dbStates = db.get('states').value();
     const dbData = db.get('data').value();
     const dbTotal = db.get('total').value();
@@ -92,7 +91,7 @@ async function scrapeData(){
 async function scraperTwo(){
     const html = await getHTML();
     const $ = cheerio.load(html);
-    const tr = $('div[id="cases"]').find('div.table-responsive>table>tbody>tr');
+    const tr = $('div').find('div.table-responsive>table>tbody>tr');
     const total = {};
 
     const dbStates = db.get('states').value();

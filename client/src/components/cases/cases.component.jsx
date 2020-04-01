@@ -99,7 +99,7 @@ function Cases(){
                         {
                             pastData.map( (item,index) =>{                    
                                 return(
-                                    <CardTile key={`${title}`+index+"who"} props={item}/>
+                                    <CardTile key={`${title}`+index+"who"} props={item} pastData={pastData} index={index}/>
                                 )
                             })
                         }
