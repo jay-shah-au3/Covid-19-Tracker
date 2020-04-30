@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const TableDivContainer = styled.div`
-    overflow-x:auto;
 `
 export const TableRow = styled.tr``;
 
@@ -22,11 +21,13 @@ export const TableContainer = styled.table`
 export const TableBody = styled.tbody``;
 
 export const TableRowHeader = styled.th`
-    padding:10px;    
+    padding:10px;  
+    top:0;
+    position:sticky;
     background-color:#55BCC9;    
     color:white;
 `;
 
 export const TableRowCell = styled.td`
-    padding:10px;    
+    padding:20px;    
 `;

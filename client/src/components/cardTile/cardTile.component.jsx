@@ -22,6 +22,7 @@ function CardTile({props, pastData, index}){
             <p style={{color:"#82ca9d",fontWeight:"bold"}}>Total Cured : {cured}</p>
             <p style={{color:"#ED2B33FF",fontWeight:"bold"}}>Total Death : {death}</p>
             <p style={{color:"black",fontWeight:"bold"}}>Death Rate : {((parseInt(death)/confirmedCases)*100).toFixed(2)}%</p>
+            <p style={{color:"#32CD32",fontWeight:"bold"}}>Cured Rate : {((parseInt(cured)/confirmedCases)*100).toFixed(2)}%</p>
         </CardTileContainer>
     )
 }

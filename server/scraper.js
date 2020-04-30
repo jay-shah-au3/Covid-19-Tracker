@@ -32,7 +32,7 @@ async function scrapeData(){
         if(len >= 4){
             if(!isNaN( parseInt( $(children[0]).text() ) ) ){
                 const obj = {};
-                let state = $(children[1]).text()
+                let state = $(children[1]).text().replace(/\#/g,'');
                 if(!dbStates.includes(state)){
                     latest.push(state);
                     change = true;
@@ -123,7 +123,7 @@ async function scraperTwo(){
             let children = $(el).children();
             let len = $(children).length; 
             if(len >=4){
-                let state = $(children[1]).text();
+                let state = $(children[1]).text().replace(/\#/g,'');
                 if(!isNaN( parseInt( $(children[0]).text() ) )){
                     const obj = {};
                     if(len===5){

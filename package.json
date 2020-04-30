@@ -11,7 +11,7 @@
     "client": "npm start --prefix client",
     "install-all": "concurrently \"npm install\" \"npm run client-install\"",
     "dev": "concurrently \"npm run server\" \"npm run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"    
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "author": "Jay",
   "license": "ISC",
@@ -24,6 +24,7 @@
     "express": "^4.17.1",
     "lodash": "^4.17.15",
     "lowdb": "^1.0.0",
+    "ngrok": "^3.2.7",
     "node-cron": "^2.0.3"
   }
 }

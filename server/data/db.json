@@ -1,7 +1,8 @@
 {
   "states": [
-    "Andhra Pradesh",
     "Andaman and Nicobar Islands",
+    "Andhra Pradesh",
+    "Arunachal Pradesh",
     "Assam",
     "Bihar",
     "Chandigarh",
@@ -19,6 +20,7 @@
     "Madhya Pradesh",
     "Maharashtra",
     "Manipur",
+    "Meghalaya",
     "Mizoram",
     "Odisha",
     "Puducherry",
@@ -26,6 +28,7 @@
     "Rajasthan",
     "Tamil Nadu",
     "Telengana",
+    "Tripura",
     "Uttarakhand",
     "Uttar Pradesh",
     "West Bengal"
@@ -33,212 +36,233 @@
   "data": [
     {
       "no": "1",
-      "state": "Andhra Pradesh",
-      "confirmedCases": "83",
-      "cured": "0",
+      "state": "Andaman and Nicobar Islands",
+      "confirmedCases": "33",
+      "cured": "15",
       "death": "0"
     },
     {
       "no": "2",
-      "state": "Andaman and Nicobar Islands",
-      "confirmedCases": "10",
+      "state": "Andhra Pradesh",
+      "confirmedCases": "1332",
+      "cured": "287",
+      "death": "31"
+    },
+    {
+      "no": "3",
+      "state": "Arunachal Pradesh",
+      "confirmedCases": "1",
       "cured": "1",
       "death": "0"
     },
     {
-      "no": "3",
-      "state": "Assam",
-      "confirmedCases": "1",
-      "cured": "0",
-      "death": "0"
-    },
-    {
       "no": "4",
-      "state": "Bihar",
-      "confirmedCases": "23",
-      "cured": "0",
+      "state": "Assam",
+      "confirmedCases": "38",
+      "cured": "29",
       "death": "1"
     },
     {
       "no": "5",
-      "state": "Chandigarh",
-      "confirmedCases": "16",
-      "cured": "0",
-      "death": "0"
+      "state": "Bihar",
+      "confirmedCases": "392",
+      "cured": "65",
+      "death": "2"
     },
     {
       "no": "6",
-      "state": "Chhattisgarh",
-      "confirmedCases": "9",
-      "cured": "2",
+      "state": "Chandigarh",
+      "confirmedCases": "56",
+      "cured": "17",
       "death": "0"
     },
     {
       "no": "7",
-      "state": "Delhi",
-      "confirmedCases": "152",
-      "cured": "6",
-      "death": "2"
+      "state": "Chhattisgarh",
+      "confirmedCases": "38",
+      "cured": "34",
+      "death": "0"
     },
     {
       "no": "8",
-      "state": "Goa",
-      "confirmedCases": "5",
-      "cured": "0",
-      "death": "0"
+      "state": "Delhi",
+      "confirmedCases": "3439",
+      "cured": "1092",
+      "death": "56"
     },
     {
       "no": "9",
-      "state": "Gujarat",
-      "confirmedCases": "82",
-      "cured": "5",
-      "death": "6"
+      "state": "Goa",
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0"
     },
     {
       "no": "10",
-      "state": "Haryana",
-      "confirmedCases": "43",
-      "cured": "21",
-      "death": "0"
+      "state": "Gujarat",
+      "confirmedCases": "4082",
+      "cured": "527",
+      "death": "197"
     },
     {
       "no": "11",
-      "state": "Himachal Pradesh",
-      "confirmedCases": "3",
-      "cured": "0",
-      "death": "1"
+      "state": "Haryana",
+      "confirmedCases": "310",
+      "cured": "209",
+      "death": "3"
     },
     {
       "no": "12",
-      "state": "Jammu and Kashmir",
-      "confirmedCases": "62",
-      "cured": "2",
-      "death": "2"
+      "state": "Himachal Pradesh",
+      "confirmedCases": "40",
+      "cured": "25",
+      "death": "1"
     },
     {
       "no": "13",
-      "state": "Jharkhand",
-      "confirmedCases": "1",
-      "cured": "0",
-      "death": "0"
+      "state": "Jammu and Kashmir",
+      "confirmedCases": "581",
+      "cured": "192",
+      "death": "8"
     },
     {
       "no": "14",
-      "state": "Karnataka",
-      "confirmedCases": "101",
-      "cured": "8",
+      "state": "Jharkhand",
+      "confirmedCases": "107",
+      "cured": "19",
       "death": "3"
     },
     {
       "no": "15",
-      "state": "Kerala",
-      "confirmedCases": "241",
-      "cured": "23",
-      "death": "2"
+      "state": "Karnataka",
+      "confirmedCases": "535",
+      "cured": "216",
+      "death": "21"
     },
     {
       "no": "16",
-      "state": "Ladakh",
-      "confirmedCases": "13",
-      "cured": "3",
-      "death": "0"
+      "state": "Kerala",
+      "confirmedCases": "495",
+      "cured": "369",
+      "death": "4"
     },
     {
       "no": "17",
-      "state": "Madhya Pradesh",
-      "confirmedCases": "66",
-      "cured": "0",
-      "death": "3"
-    },
-    {
-      "no": "18",
-      "state": "Maharashtra",
-      "confirmedCases": "302",
-      "cured": "39",
-      "death": "9"
-    },
-    {
-      "no": "19",
-      "state": "Manipur",
-      "confirmedCases": "1",
-      "cured": "0",
+      "state": "Ladakh",
+      "confirmedCases": "22",
+      "cured": "16",
       "death": "0"
     },
     {
+      "no": "18",
+      "state": "Madhya Pradesh",
+      "confirmedCases": "2561",
+      "cured": "461",
+      "death": "129"
+    },
+    {
+      "no": "19",
+      "state": "Maharashtra",
+      "confirmedCases": "9915",
+      "cured": "1593",
+      "death": "432"
+    },
+    {
       "no": "20",
+      "state": "Manipur",
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0"
+    },
+    {
+      "no": "21",
+      "state": "Meghalaya",
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1"
+    },
+    {
+      "no": "22",
       "state": "Mizoram",
       "confirmedCases": "1",
       "cured": "0",
       "death": "0"
     },
     {
-      "no": "21",
-      "state": "Odisha",
-      "confirmedCases": "4",
-      "cured": "0",
-      "death": "0"
-    },
-    {
-      "no": "22",
-      "state": "Puducherry",
-      "confirmedCases": "3",
-      "cured": "1",
-      "death": "0"
-    },
-    {
       "no": "23",
-      "state": "Punjab",
-      "confirmedCases": "42",
-      "cured": "1",
-      "death": "3"
+      "state": "Odisha",
+      "confirmedCases": "125",
+      "cured": "39",
+      "death": "1"
     },
     {
       "no": "24",
-      "state": "Rajasthan",
-      "confirmedCases": "93",
+      "state": "Puducherry",
+      "confirmedCases": "8",
       "cured": "3",
       "death": "0"
     },
     {
       "no": "25",
-      "state": "Tamil Nadu",
-      "confirmedCases": "234",
-      "cured": "6",
-      "death": "1"
+      "state": "Punjab",
+      "confirmedCases": "357",
+      "cured": "90",
+      "death": "19"
     },
     {
       "no": "26",
-      "state": "Telengana",
-      "confirmedCases": "96",
-      "cured": "1",
-      "death": "3"
+      "state": "Rajasthan",
+      "confirmedCases": "2438",
+      "cured": "768",
+      "death": "51"
     },
     {
       "no": "27",
-      "state": "Uttarakhand",
-      "confirmedCases": "7",
+      "state": "Tamil Nadu",
+      "confirmedCases": "2162",
+      "cured": "1210",
+      "death": "27"
+    },
+    {
+      "no": "28",
+      "state": "Telengana",
+      "confirmedCases": "1012",
+      "cured": "367",
+      "death": "26"
+    },
+    {
+      "no": "29",
+      "state": "Tripura",
+      "confirmedCases": "2",
       "cured": "2",
       "death": "0"
     },
     {
-      "no": "28",
-      "state": "Uttar Pradesh",
-      "confirmedCases": "103",
-      "cured": "14",
-      "death": "2"
+      "no": "30",
+      "state": "Uttarakhand",
+      "confirmedCases": "55",
+      "cured": "36",
+      "death": "0"
     },
     {
-      "no": "29",
+      "no": "31",
+      "state": "Uttar Pradesh",
+      "confirmedCases": "2134",
+      "cured": "510",
+      "death": "39"
+    },
+    {
+      "no": "32",
       "state": "West Bengal",
-      "confirmedCases": "37",
-      "cured": "6",
-      "death": "3"
+      "confirmedCases": "758",
+      "cured": "124",
+      "death": "22"
     }
   ],
   "total": {
-    "confirmedCases": "1834",
-    "cured": "144",
-    "death": "41"
+    "confirmedCases": "33050",
+    "cured": "8325",
+    "death": "1074"
   },
   "latest": [
     "Bihar",
@@ -247,7 +271,11 @@
     "Goa",
     "Andaman and Nicobar Islands",
     "Assam",
-    "Jharkhand"
+    "Jharkhand",
+    "Arunachal Pradesh",
+    "Tripura",
+    "Nagaland",
+    "Meghalaya"
   ],
   "historyData": [
     {
@@ -323,6 +351,180 @@
       "cured": "124",
       "death": "35",
       "date": 1585593000625
+    },
+    {
+      "confirmedCases": "1834",
+      "cured": "144",
+      "death": "41",
+      "date": 1585681080746
+    },
+    {
+      "confirmedCases": "2069",
+      "cured": "156",
+      "death": "53",
+      "date": 1585765800738
+    },
+    {
+      "confirmedCases": "2547",
+      "cured": "163",
+      "death": "62",
+      "date": 1585852200395
+    },
+    {
+      "confirmedCases": "3072",
+      "cured": "213",
+      "death": "75",
+      "date": 1585938601327
+    },
+    {
+      "confirmedCases": "3577",
+      "cured": "275",
+      "death": "83",
+      "date": 1586025000310
+    },
+    {
+      "confirmedCases": "4281",
+      "cured": "319",
+      "death": "111",
+      "date": 1586111400346
+    },
+    {
+      "confirmedCases": "4789",
+      "cured": "353",
+      "death": "124",
+      "date": 1586197811948
+    },
+    {
+      "confirmedCases": "5274",
+      "cured": "411",
+      "death": "149",
+      "date": 1586284201382
+    },
+    {
+      "confirmedCases": "5865",
+      "cured": "478",
+      "death": "169",
+      "date": 1586370600461
+    },
+    {
+      "confirmedCases": "6761",
+      "cured": "516",
+      "death": "206",
+      "date": 1586457000486
+    },
+    {
+      "confirmedCases": "7529",
+      "cured": "653",
+      "death": "242",
+      "date": 1586543400822
+    },
+    {
+      "confirmedCases": "8447",
+      "cured": "765",
+      "death": "273",
+      "date": 1586629800885
+    },
+    {
+      "confirmedCases": "9352",
+      "cured": "980",
+      "death": "324",
+      "date": 1586716200642
+    },
+    {
+      "confirmedCases": "10815",
+      "cured": "1190",
+      "death": "353",
+      "date": 1586802600437
+    },
+    {
+      "confirmedCases": "11933",
+      "cured": "1344",
+      "death": "392",
+      "date": 1586889000515
+    },
+    {
+      "confirmedCases": "12759",
+      "cured": "1515",
+      "death": "420",
+      "date": 1586975400301
+    },
+    {
+      "confirmedCases": "13835",
+      "cured": "1767",
+      "death": "452",
+      "date": 1587061800470
+    },
+    {
+      "confirmedCases": "14792",
+      "cured": "2015",
+      "death": "488",
+      "date": 1587148200918
+    },
+    {
+      "confirmedCases": "16116",
+      "cured": "2302",
+      "death": "519",
+      "date": 1587234600496
+    },
+    {
+      "confirmedCases": "17656",
+      "cured": "2842",
+      "death": "559",
+      "date": 1587321000864
+    },
+    {
+      "confirmedCases": "18985",
+      "cured": "3260",
+      "death": "603",
+      "date": 1587407400443
+    },
+    {
+      "confirmedCases": "20471",
+      "cured": "3960",
+      "death": "652",
+      "date": 1587493800919
+    },
+    {
+      "confirmedCases": "21700",
+      "cured": "4325",
+      "death": "686",
+      "date": 1587580200824
+    },
+    {
+      "confirmedCases": "23452",
+      "cured": "4814",
+      "death": "723",
+      "date": 1587666600939
+    },
+    {
+      "confirmedCases": "24942",
+      "cured": "5210",
+      "death": "779",
+      "date": 1587753000633
+    },
+    {
+      "confirmedCases": "26917",
+      "cured": "5914",
+      "death": "826",
+      "date": 1587839400540
+    },
+    {
+      "confirmedCases": "28380",
+      "cured": "6362",
+      "death": "886",
+      "date": 1587925800364
+    },
+    {
+      "confirmedCases": "29974",
+      "cured": "7027",
+      "death": "937",
+      "date": 1588012201879
+    },
+    {
+      "confirmedCases": "31787",
+      "cured": "7797",
+      "death": "1008",
+      "date": 1588098601622
     }
   ],
   "Andhra Pradesh": [
@@ -383,6 +585,180 @@
       "cured": "1",
       "death": "0",
       "date": 1585593000594
+    },
+    {
+      "confirmedCases": "83",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080653
+    },
+    {
+      "confirmedCases": "86",
+      "cured": "1",
+      "death": "1",
+      "date": 1585765800287
+    },
+    {
+      "confirmedCases": "132",
+      "cured": "1",
+      "death": "1",
+      "date": 1585852200342
+    },
+    {
+      "confirmedCases": "161",
+      "cured": "1",
+      "death": "1",
+      "date": 1585938600663
+    },
+    {
+      "confirmedCases": "190",
+      "cured": "1",
+      "death": "1",
+      "date": 1586025000245
+    },
+    {
+      "confirmedCases": "226",
+      "cured": "1",
+      "death": "3",
+      "date": 1586111400172
+    },
+    {
+      "confirmedCases": "266",
+      "cured": "1",
+      "death": "3",
+      "date": 1586197801015
+    },
+    {
+      "confirmedCases": "305",
+      "cured": "5",
+      "death": "4",
+      "date": 1586284201253
+    },
+    {
+      "confirmedCases": "348",
+      "cured": "6",
+      "death": "4",
+      "date": 1586370600333
+    },
+    {
+      "confirmedCases": "363",
+      "cured": "7",
+      "death": "6",
+      "date": 1586457000304
+    },
+    {
+      "confirmedCases": "381",
+      "cured": "11",
+      "death": "6",
+      "date": 1586543400637
+    },
+    {
+      "confirmedCases": "381",
+      "cured": "11",
+      "death": "6",
+      "date": 1586629800610
+    },
+    {
+      "confirmedCases": "432",
+      "cured": "11",
+      "death": "7",
+      "date": 1586716200480
+    },
+    {
+      "confirmedCases": "473",
+      "cured": "14",
+      "death": "9",
+      "date": 1586802600357
+    },
+    {
+      "confirmedCases": "503",
+      "cured": "16",
+      "death": "9",
+      "date": 1586889000437
+    },
+    {
+      "confirmedCases": "534",
+      "cured": "20",
+      "death": "14",
+      "date": 1586975400243
+    },
+    {
+      "confirmedCases": "572",
+      "cured": "36",
+      "death": "14",
+      "date": 1587061800407
+    },
+    {
+      "confirmedCases": "603",
+      "cured": "42",
+      "death": "15",
+      "date": 1587148200598
+    },
+    {
+      "confirmedCases": "603",
+      "cured": "42",
+      "death": "15",
+      "date": 1587234600357
+    },
+    {
+      "confirmedCases": "722",
+      "cured": "92",
+      "death": "20",
+      "date": 1587321000424
+    },
+    {
+      "confirmedCases": "757",
+      "cured": "96",
+      "death": "22",
+      "date": 1587407400271
+    },
+    {
+      "confirmedCases": "813",
+      "cured": "120",
+      "death": "24",
+      "date": 1587493800843
+    },
+    {
+      "confirmedCases": "895",
+      "cured": "141",
+      "death": "27",
+      "date": 1587580200494
+    },
+    {
+      "confirmedCases": "955",
+      "cured": "145",
+      "death": "29",
+      "date": 1587666600693
+    },
+    {
+      "confirmedCases": "1061",
+      "cured": "171",
+      "death": "31",
+      "date": 1587753000422
+    },
+    {
+      "confirmedCases": "1097",
+      "cured": "231",
+      "death": "31",
+      "date": 1587839400426
+    },
+    {
+      "confirmedCases": "1177",
+      "cured": "235",
+      "death": "31",
+      "date": 1587925800230
+    },
+    {
+      "confirmedCases": "1259",
+      "cured": "258",
+      "death": "31",
+      "date": 1588012201575
+    },
+    {
+      "confirmedCases": "1332",
+      "cured": "287",
+      "death": "31",
+      "date": 1588098601017
     }
   ],
   "Bihar": [
@@ -443,6 +819,180 @@
       "cured": "0",
       "death": "1",
       "date": 1585593000596
+    },
+    {
+      "confirmedCases": "23",
+      "cured": "0",
+      "death": "1",
+      "date": 1585681080691
+    },
+    {
+      "confirmedCases": "24",
+      "cured": "0",
+      "death": "1",
+      "date": 1585765800469
+    },
+    {
+      "confirmedCases": "29",
+      "cured": "0",
+      "death": "1",
+      "date": 1585852200363
+    },
+    {
+      "confirmedCases": "30",
+      "cured": "0",
+      "death": "1",
+      "date": 1585938601222
+    },
+    {
+      "confirmedCases": "30",
+      "cured": "0",
+      "death": "1",
+      "date": 1586025000271
+    },
+    {
+      "confirmedCases": "32",
+      "cured": "0",
+      "death": "1",
+      "date": 1586111400197
+    },
+    {
+      "confirmedCases": "32",
+      "cured": "0",
+      "death": "1",
+      "date": 1586197803173
+    },
+    {
+      "confirmedCases": "38",
+      "cured": "0",
+      "death": "1",
+      "date": 1586284201349
+    },
+    {
+      "confirmedCases": "39",
+      "cured": "0",
+      "death": "1",
+      "date": 1586370600407
+    },
+    {
+      "confirmedCases": "60",
+      "cured": "0",
+      "death": "1",
+      "date": 1586457000417
+    },
+    {
+      "confirmedCases": "60",
+      "cured": "0",
+      "death": "1",
+      "date": 1586543400647
+    },
+    {
+      "confirmedCases": "64",
+      "cured": "19",
+      "death": "1",
+      "date": 1586629800699
+    },
+    {
+      "confirmedCases": "64",
+      "cured": "26",
+      "death": "1",
+      "date": 1586716200486
+    },
+    {
+      "confirmedCases": "66",
+      "cured": "26",
+      "death": "1",
+      "date": 1586802600390
+    },
+    {
+      "confirmedCases": "70",
+      "cured": "29",
+      "death": "1",
+      "date": 1586889000444
+    },
+    {
+      "confirmedCases": "74",
+      "cured": "29",
+      "death": "1",
+      "date": 1586975400248
+    },
+    {
+      "confirmedCases": "83",
+      "cured": "37",
+      "death": "1",
+      "date": 1587061800419
+    },
+    {
+      "confirmedCases": "85",
+      "cured": "37",
+      "death": "2",
+      "date": 1587148200617
+    },
+    {
+      "confirmedCases": "86",
+      "cured": "37",
+      "death": "2",
+      "date": 1587234600362
+    },
+    {
+      "confirmedCases": "96",
+      "cured": "42",
+      "death": "2",
+      "date": 1587321000585
+    },
+    {
+      "confirmedCases": "114",
+      "cured": "42",
+      "death": "2",
+      "date": 1587407400276
+    },
+    {
+      "confirmedCases": "126",
+      "cured": "46",
+      "death": "2",
+      "date": 1587493800857
+    },
+    {
+      "confirmedCases": "148",
+      "cured": "46",
+      "death": "2",
+      "date": 1587580200498
+    },
+    {
+      "confirmedCases": "176",
+      "cured": "46",
+      "death": "2",
+      "date": 1587666600714
+    },
+    {
+      "confirmedCases": "228",
+      "cured": "46",
+      "death": "2",
+      "date": 1587753000427
+    },
+    {
+      "confirmedCases": "251",
+      "cured": "46",
+      "death": "2",
+      "date": 1587839400432
+    },
+    {
+      "confirmedCases": "277",
+      "cured": "56",
+      "death": "2",
+      "date": 1587925800262
+    },
+    {
+      "confirmedCases": "346",
+      "cured": "57",
+      "death": "2",
+      "date": 1588012201601
+    },
+    {
+      "confirmedCases": "383",
+      "cured": "64",
+      "death": "2",
+      "date": 1588098601033
     }
   ],
   "Chhattisgarh": [
@@ -503,6 +1053,180 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000598
+    },
+    {
+      "confirmedCases": "9",
+      "cured": "2",
+      "death": "0",
+      "date": 1585681080694
+    },
+    {
+      "confirmedCases": "9",
+      "cured": "2",
+      "death": "0",
+      "date": 1585765800472
+    },
+    {
+      "confirmedCases": "9",
+      "cured": "3",
+      "death": "0",
+      "date": 1585852200366
+    },
+    {
+      "confirmedCases": "9",
+      "cured": "3",
+      "death": "0",
+      "date": 1585938601226
+    },
+    {
+      "confirmedCases": "9",
+      "cured": "3",
+      "death": "0",
+      "date": 1586025000273
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "8",
+      "death": "0",
+      "date": 1586111400199
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "9",
+      "death": "0",
+      "date": 1586197804075
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "9",
+      "death": "0",
+      "date": 1586284201351
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "9",
+      "death": "0",
+      "date": 1586370600413
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "9",
+      "death": "0",
+      "date": 1586457000421
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "9",
+      "death": "0",
+      "date": 1586543400679
+    },
+    {
+      "confirmedCases": "25",
+      "cured": "10",
+      "death": "0",
+      "date": 1586629800703
+    },
+    {
+      "confirmedCases": "31",
+      "cured": "10",
+      "death": "0",
+      "date": 1586716200510
+    },
+    {
+      "confirmedCases": "31",
+      "cured": "10",
+      "death": "0",
+      "date": 1586802600396
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "13",
+      "death": "0",
+      "date": 1586889000450
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "17",
+      "death": "0",
+      "date": 1586975400252
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "23",
+      "death": "0",
+      "date": 1587061800426
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "24",
+      "death": "0",
+      "date": 1587148200623
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "24",
+      "death": "0",
+      "date": 1587234600369
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "25",
+      "death": "0",
+      "date": 1587321000588
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "25",
+      "death": "0",
+      "date": 1587407400290
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "26",
+      "death": "0",
+      "date": 1587493800864
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "28",
+      "death": "0",
+      "date": 1587580200502
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "28",
+      "death": "0",
+      "date": 1587666600722
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "30",
+      "death": "0",
+      "date": 1587753000430
+    },
+    {
+      "confirmedCases": "37",
+      "cured": "32",
+      "death": "0",
+      "date": 1587839400435
+    },
+    {
+      "confirmedCases": "37",
+      "cured": "32",
+      "death": "0",
+      "date": 1587925800268
+    },
+    {
+      "confirmedCases": "37",
+      "cured": "32",
+      "death": "0",
+      "date": 1588012201612
+    },
+    {
+      "confirmedCases": "38",
+      "cured": "34",
+      "death": "0",
+      "date": 1588098601115
     }
   ],
   "Delhi": [
@@ -563,6 +1287,180 @@
       "cured": "6",
       "death": "2",
       "date": 1585593000599
+    },
+    {
+      "confirmedCases": "152",
+      "cured": "6",
+      "death": "2",
+      "date": 1585681080696
+    },
+    {
+      "confirmedCases": "219",
+      "cured": "8",
+      "death": "4",
+      "date": 1585765800474
+    },
+    {
+      "confirmedCases": "219",
+      "cured": "8",
+      "death": "4",
+      "date": 1585852200367
+    },
+    {
+      "confirmedCases": "445",
+      "cured": "15",
+      "death": "6",
+      "date": 1585938601227
+    },
+    {
+      "confirmedCases": "503",
+      "cured": "18",
+      "death": "7",
+      "date": 1586025000275
+    },
+    {
+      "confirmedCases": "523",
+      "cured": "19",
+      "death": "7",
+      "date": 1586111400200
+    },
+    {
+      "confirmedCases": "576",
+      "cured": "21",
+      "death": "7",
+      "date": 1586197804402
+    },
+    {
+      "confirmedCases": "576",
+      "cured": "21",
+      "death": "9",
+      "date": 1586284201352
+    },
+    {
+      "confirmedCases": "669",
+      "cured": "21",
+      "death": "9",
+      "date": 1586370600415
+    },
+    {
+      "confirmedCases": "898",
+      "cured": "25",
+      "death": "13",
+      "date": 1586457000423
+    },
+    {
+      "confirmedCases": "903",
+      "cured": "25",
+      "death": "14",
+      "date": 1586543400681
+    },
+    {
+      "confirmedCases": "1069",
+      "cured": "25",
+      "death": "19",
+      "date": 1586629800705
+    },
+    {
+      "confirmedCases": "1154",
+      "cured": "27",
+      "death": "24",
+      "date": 1586716200511
+    },
+    {
+      "confirmedCases": "1510",
+      "cured": "30",
+      "death": "28",
+      "date": 1586802600399
+    },
+    {
+      "confirmedCases": "1561",
+      "cured": "30",
+      "death": "30",
+      "date": 1586889000452
+    },
+    {
+      "confirmedCases": "1578",
+      "cured": "42",
+      "death": "32",
+      "date": 1586975400254
+    },
+    {
+      "confirmedCases": "1640",
+      "cured": "51",
+      "death": "38",
+      "date": 1587061800431
+    },
+    {
+      "confirmedCases": "1707",
+      "cured": "72",
+      "death": "42",
+      "date": 1587148200626
+    },
+    {
+      "confirmedCases": "1893",
+      "cured": "72",
+      "death": "43",
+      "date": 1587234600374
+    },
+    {
+      "confirmedCases": "2003",
+      "cured": "290",
+      "death": "45",
+      "date": 1587321000590
+    },
+    {
+      "confirmedCases": "2081",
+      "cured": "431",
+      "death": "47",
+      "date": 1587407400291
+    },
+    {
+      "confirmedCases": "2156",
+      "cured": "611",
+      "death": "47",
+      "date": 1587493800868
+    },
+    {
+      "confirmedCases": "2248",
+      "cured": "724",
+      "death": "48",
+      "date": 1587580200504
+    },
+    {
+      "confirmedCases": "2376",
+      "cured": "808",
+      "death": "50",
+      "date": 1587666600725
+    },
+    {
+      "confirmedCases": "2514",
+      "cured": "857",
+      "death": "53",
+      "date": 1587753000432
+    },
+    {
+      "confirmedCases": "2625",
+      "cured": "869",
+      "death": "54",
+      "date": 1587839400439
+    },
+    {
+      "confirmedCases": "2918",
+      "cured": "877",
+      "death": "54",
+      "date": 1587925800269
+    },
+    {
+      "confirmedCases": "3108",
+      "cured": "877",
+      "death": "54",
+      "date": 1588012201616
+    },
+    {
+      "confirmedCases": "3314",
+      "cured": "1078",
+      "death": "54",
+      "date": 1588098601120
     }
   ],
   "Gujarat": [
@@ -623,6 +1521,180 @@
       "cured": "3",
       "death": "6",
       "date": 1585593000600
+    },
+    {
+      "confirmedCases": "82",
+      "cured": "5",
+      "death": "6",
+      "date": 1585681080700
+    },
+    {
+      "confirmedCases": "87",
+      "cured": "8",
+      "death": "7",
+      "date": 1585765800480
+    },
+    {
+      "confirmedCases": "95",
+      "cured": "10",
+      "death": "8",
+      "date": 1585852200371
+    },
+    {
+      "confirmedCases": "105",
+      "cured": "14",
+      "death": "10",
+      "date": 1585938601233
+    },
+    {
+      "confirmedCases": "122",
+      "cured": "18",
+      "death": "11",
+      "date": 1586025000280
+    },
+    {
+      "confirmedCases": "144",
+      "cured": "22",
+      "death": "12",
+      "date": 1586111400204
+    },
+    {
+      "confirmedCases": "165",
+      "cured": "25",
+      "death": "13",
+      "date": 1586197804746
+    },
+    {
+      "confirmedCases": "165",
+      "cured": "25",
+      "death": "13",
+      "date": 1586284201355
+    },
+    {
+      "confirmedCases": "179",
+      "cured": "25",
+      "death": "16",
+      "date": 1586370600420
+    },
+    {
+      "confirmedCases": "241",
+      "cured": "26",
+      "death": "17",
+      "date": 1586457000426
+    },
+    {
+      "confirmedCases": "308",
+      "cured": "31",
+      "death": "19",
+      "date": 1586543400688
+    },
+    {
+      "confirmedCases": "432",
+      "cured": "44",
+      "death": "22",
+      "date": 1586629800709
+    },
+    {
+      "confirmedCases": "539",
+      "cured": "47",
+      "death": "26",
+      "date": 1586716200527
+    },
+    {
+      "confirmedCases": "617",
+      "cured": "55",
+      "death": "26",
+      "date": 1586802600402
+    },
+    {
+      "confirmedCases": "695",
+      "cured": "59",
+      "death": "30",
+      "date": 1586889000459
+    },
+    {
+      "confirmedCases": "871",
+      "cured": "64",
+      "death": "36",
+      "date": 1586975400258
+    },
+    {
+      "confirmedCases": "1021",
+      "cured": "74",
+      "death": "38",
+      "date": 1587061800434
+    },
+    {
+      "confirmedCases": "1272",
+      "cured": "88",
+      "death": "48",
+      "date": 1587148200634
+    },
+    {
+      "confirmedCases": "1604",
+      "cured": "94",
+      "death": "58",
+      "date": 1587234600378
+    },
+    {
+      "confirmedCases": "1851",
+      "cured": "106",
+      "death": "67",
+      "date": 1587321000784
+    },
+    {
+      "confirmedCases": "2066",
+      "cured": "131",
+      "death": "77",
+      "date": 1587407400295
+    },
+    {
+      "confirmedCases": "2272",
+      "cured": "144",
+      "death": "95",
+      "date": 1587493800875
+    },
+    {
+      "confirmedCases": "2407",
+      "cured": "179",
+      "death": "103",
+      "date": 1587580200507
+    },
+    {
+      "confirmedCases": "2624",
+      "cured": "258",
+      "death": "112",
+      "date": 1587666600770
+    },
+    {
+      "confirmedCases": "2815",
+      "cured": "265",
+      "death": "127",
+      "date": 1587753000435
+    },
+    {
+      "confirmedCases": "3071",
+      "cured": "282",
+      "death": "133",
+      "date": 1587839400442
+    },
+    {
+      "confirmedCases": "3301",
+      "cured": "313",
+      "death": "151",
+      "date": 1587925800273
+    },
+    {
+      "confirmedCases": "3548",
+      "cured": "394",
+      "death": "162",
+      "date": 1588012201650
+    },
+    {
+      "confirmedCases": "3774",
+      "cured": "434",
+      "death": "181",
+      "date": 1588098601128
     }
   ],
   "Haryana": [
@@ -683,6 +1755,180 @@
       "cured": "21",
       "death": "0",
       "date": 1585593000601
+    },
+    {
+      "confirmedCases": "43",
+      "cured": "21",
+      "death": "0",
+      "date": 1585681080702
+    },
+    {
+      "confirmedCases": "43",
+      "cured": "21",
+      "death": "0",
+      "date": 1585765800505
+    },
+    {
+      "confirmedCases": "49",
+      "cured": "24",
+      "death": "0",
+      "date": 1585852200372
+    },
+    {
+      "confirmedCases": "49",
+      "cured": "24",
+      "death": "0",
+      "date": 1585938601257
+    },
+    {
+      "confirmedCases": "59",
+      "cured": "25",
+      "death": "1",
+      "date": 1586025000281
+    },
+    {
+      "confirmedCases": "84",
+      "cured": "25",
+      "death": "1",
+      "date": 1586111400205
+    },
+    {
+      "confirmedCases": "90",
+      "cured": "25",
+      "death": "1",
+      "date": 1586197804747
+    },
+    {
+      "confirmedCases": "147",
+      "cured": "28",
+      "death": "3",
+      "date": 1586284201357
+    },
+    {
+      "confirmedCases": "169",
+      "cured": "29",
+      "death": "3",
+      "date": 1586370600423
+    },
+    {
+      "confirmedCases": "169",
+      "cured": "29",
+      "death": "3",
+      "date": 1586457000428
+    },
+    {
+      "confirmedCases": "177",
+      "cured": "29",
+      "death": "3",
+      "date": 1586543400692
+    },
+    {
+      "confirmedCases": "185",
+      "cured": "29",
+      "death": "3",
+      "date": 1586629800711
+    },
+    {
+      "confirmedCases": "185",
+      "cured": "29",
+      "death": "3",
+      "date": 1586716200529
+    },
+    {
+      "confirmedCases": "199",
+      "cured": "34",
+      "death": "3",
+      "date": 1586802600404
+    },
+    {
+      "confirmedCases": "199",
+      "cured": "34",
+      "death": "3",
+      "date": 1586889000461
+    },
+    {
+      "confirmedCases": "205",
+      "cured": "43",
+      "death": "3",
+      "date": 1586975400260
+    },
+    {
+      "confirmedCases": "205",
+      "cured": "43",
+      "death": "3",
+      "date": 1587061800437
+    },
+    {
+      "confirmedCases": "225",
+      "cured": "43",
+      "death": "3",
+      "date": 1587148200637
+    },
+    {
+      "confirmedCases": "233",
+      "cured": "87",
+      "death": "3",
+      "date": 1587234600379
+    },
+    {
+      "confirmedCases": "233",
+      "cured": "87",
+      "death": "3",
+      "date": 1587321000792
+    },
+    {
+      "confirmedCases": "254",
+      "cured": "127",
+      "death": "3",
+      "date": 1587407400297
+    },
+    {
+      "confirmedCases": "254",
+      "cured": "127",
+      "death": "3",
+      "date": 1587493800879
+    },
+    {
+      "confirmedCases": "262",
+      "cured": "140",
+      "death": "3",
+      "date": 1587580200510
+    },
+    {
+      "confirmedCases": "272",
+      "cured": "156",
+      "death": "3",
+      "date": 1587666600773
+    },
+    {
+      "confirmedCases": "272",
+      "cured": "156",
+      "death": "3",
+      "date": 1587753000454
+    },
+    {
+      "confirmedCases": "289",
+      "cured": "176",
+      "death": "3",
+      "date": 1587839400444
+    },
+    {
+      "confirmedCases": "289",
+      "cured": "176",
+      "death": "3",
+      "date": 1587925800275
+    },
+    {
+      "confirmedCases": "296",
+      "cured": "183",
+      "death": "3",
+      "date": 1588012201653
+    },
+    {
+      "confirmedCases": "310",
+      "cured": "209",
+      "death": "3",
+      "date": 1588098601135
     }
   ],
   "Himachal Pradesh": [
@@ -743,6 +1989,180 @@
       "cured": "0",
       "death": "1",
       "date": 1585593000604
+    },
+    {
+      "confirmedCases": "3",
+      "cured": "0",
+      "death": "1",
+      "date": 1585681080704
+    },
+    {
+      "confirmedCases": "3",
+      "cured": "1",
+      "death": "1",
+      "date": 1585765800510
+    },
+    {
+      "confirmedCases": "6",
+      "cured": "1",
+      "death": "1",
+      "date": 1585852200372
+    },
+    {
+      "confirmedCases": "6",
+      "cured": "1",
+      "death": "1",
+      "date": 1585938601259
+    },
+    {
+      "confirmedCases": "6",
+      "cured": "1",
+      "death": "1",
+      "date": 1586025000282
+    },
+    {
+      "confirmedCases": "13",
+      "cured": "2",
+      "death": "1",
+      "date": 1586111400309
+    },
+    {
+      "confirmedCases": "13",
+      "cured": "2",
+      "death": "1",
+      "date": 1586197804749
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "2",
+      "death": "1",
+      "date": 1586284201358
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "2",
+      "death": "1",
+      "date": 1586370600425
+    },
+    {
+      "confirmedCases": "28",
+      "cured": "6",
+      "death": "1",
+      "date": 1586457000429
+    },
+    {
+      "confirmedCases": "28",
+      "cured": "6",
+      "death": "1",
+      "date": 1586543400698
+    },
+    {
+      "confirmedCases": "32",
+      "cured": "6",
+      "death": "1",
+      "date": 1586629800713
+    },
+    {
+      "confirmedCases": "32",
+      "cured": "13",
+      "death": "1",
+      "date": 1586716200531
+    },
+    {
+      "confirmedCases": "32",
+      "cured": "13",
+      "death": "1",
+      "date": 1586802600405
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "13",
+      "death": "1",
+      "date": 1586889000463
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "16",
+      "death": "1",
+      "date": 1586975400262
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "16",
+      "death": "1",
+      "date": 1587061800438
+    },
+    {
+      "confirmedCases": "38",
+      "cured": "16",
+      "death": "1",
+      "date": 1587148200640
+    },
+    {
+      "confirmedCases": "39",
+      "cured": "16",
+      "death": "1",
+      "date": 1587234600381
+    },
+    {
+      "confirmedCases": "39",
+      "cured": "16",
+      "death": "1",
+      "date": 1587321000800
+    },
+    {
+      "confirmedCases": "39",
+      "cured": "16",
+      "death": "1",
+      "date": 1587407400299
+    },
+    {
+      "confirmedCases": "39",
+      "cured": "16",
+      "death": "1",
+      "date": 1587493800881
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "18",
+      "death": "1",
+      "date": 1587580200558
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "18",
+      "death": "1",
+      "date": 1587666600776
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "18",
+      "death": "1",
+      "date": 1587753000456
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "22",
+      "death": "1",
+      "date": 1587839400446
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "22",
+      "death": "1",
+      "date": 1587925800277
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "22",
+      "death": "1",
+      "date": 1588012201656
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "25",
+      "death": "1",
+      "date": 1588098601235
     }
   ],
   "Karnataka": [
@@ -803,6 +2223,180 @@
       "cured": "5",
       "death": "3",
       "date": 1585593000606
+    },
+    {
+      "confirmedCases": "101",
+      "cured": "8",
+      "death": "3",
+      "date": 1585681080710
+    },
+    {
+      "confirmedCases": "110",
+      "cured": "9",
+      "death": "3",
+      "date": 1585765800575
+    },
+    {
+      "confirmedCases": "124",
+      "cured": "10",
+      "death": "3",
+      "date": 1585852200376
+    },
+    {
+      "confirmedCases": "128",
+      "cured": "12",
+      "death": "3",
+      "date": 1585938601266
+    },
+    {
+      "confirmedCases": "144",
+      "cured": "12",
+      "death": "4",
+      "date": 1586025000286
+    },
+    {
+      "confirmedCases": "151",
+      "cured": "12",
+      "death": "4",
+      "date": 1586111400316
+    },
+    {
+      "confirmedCases": "175",
+      "cured": "25",
+      "death": "4",
+      "date": 1586197804755
+    },
+    {
+      "confirmedCases": "175",
+      "cured": "25",
+      "death": "4",
+      "date": 1586284201362
+    },
+    {
+      "confirmedCases": "181",
+      "cured": "28",
+      "death": "5",
+      "date": 1586370600433
+    },
+    {
+      "confirmedCases": "197",
+      "cured": "30",
+      "death": "6",
+      "date": 1586457000437
+    },
+    {
+      "confirmedCases": "214",
+      "cured": "37",
+      "death": "6",
+      "date": 1586543400706
+    },
+    {
+      "confirmedCases": "226",
+      "cured": "37",
+      "death": "6",
+      "date": 1586629800722
+    },
+    {
+      "confirmedCases": "247",
+      "cured": "59",
+      "death": "6",
+      "date": 1586716200554
+    },
+    {
+      "confirmedCases": "258",
+      "cured": "65",
+      "death": "9",
+      "date": 1586802600410
+    },
+    {
+      "confirmedCases": "277",
+      "cured": "75",
+      "death": "11",
+      "date": 1586889000470
+    },
+    {
+      "confirmedCases": "315",
+      "cured": "82",
+      "death": "13",
+      "date": 1586975400268
+    },
+    {
+      "confirmedCases": "353",
+      "cured": "82",
+      "death": "13",
+      "date": 1587061800442
+    },
+    {
+      "confirmedCases": "371",
+      "cured": "92",
+      "death": "13",
+      "date": 1587148200648
+    },
+    {
+      "confirmedCases": "384",
+      "cured": "104",
+      "death": "14",
+      "date": 1587234600386
+    },
+    {
+      "confirmedCases": "395",
+      "cured": "111",
+      "death": "16",
+      "date": 1587321000815
+    },
+    {
+      "confirmedCases": "415",
+      "cured": "114",
+      "death": "17",
+      "date": 1587407400303
+    },
+    {
+      "confirmedCases": "425",
+      "cured": "129",
+      "death": "17",
+      "date": 1587493800886
+    },
+    {
+      "confirmedCases": "443",
+      "cured": "141",
+      "death": "17",
+      "date": 1587580200741
+    },
+    {
+      "confirmedCases": "463",
+      "cured": "150",
+      "death": "18",
+      "date": 1587666600786
+    },
+    {
+      "confirmedCases": "489",
+      "cured": "153",
+      "death": "18",
+      "date": 1587753000460
+    },
+    {
+      "confirmedCases": "501",
+      "cured": "177",
+      "death": "18",
+      "date": 1587839400494
+    },
+    {
+      "confirmedCases": "511",
+      "cured": "188",
+      "death": "20",
+      "date": 1587925800283
+    },
+    {
+      "confirmedCases": "520",
+      "cured": "198",
+      "death": "20",
+      "date": 1588012201667
+    },
+    {
+      "confirmedCases": "532",
+      "cured": "215",
+      "death": "20",
+      "date": 1588098601242
     }
   ],
   "Kerala": [
@@ -863,6 +2457,180 @@
       "cured": "19",
       "death": "1",
       "date": 1585593000607
+    },
+    {
+      "confirmedCases": "241",
+      "cured": "23",
+      "death": "2",
+      "date": 1585681080711
+    },
+    {
+      "confirmedCases": "265",
+      "cured": "25",
+      "death": "2",
+      "date": 1585765800577
+    },
+    {
+      "confirmedCases": "286",
+      "cured": "27",
+      "death": "2",
+      "date": 1585852200377
+    },
+    {
+      "confirmedCases": "295",
+      "cured": "41",
+      "death": "2",
+      "date": 1585938601268
+    },
+    {
+      "confirmedCases": "306",
+      "cured": "49",
+      "death": "2",
+      "date": 1586025000288
+    },
+    {
+      "confirmedCases": "314",
+      "cured": "55",
+      "death": "2",
+      "date": 1586111400319
+    },
+    {
+      "confirmedCases": "327",
+      "cured": "58",
+      "death": "2",
+      "date": 1586197804756
+    },
+    {
+      "confirmedCases": "336",
+      "cured": "70",
+      "death": "2",
+      "date": 1586284201363
+    },
+    {
+      "confirmedCases": "345",
+      "cured": "83",
+      "death": "2",
+      "date": 1586370600434
+    },
+    {
+      "confirmedCases": "357",
+      "cured": "96",
+      "death": "2",
+      "date": 1586457000438
+    },
+    {
+      "confirmedCases": "364",
+      "cured": "123",
+      "death": "2",
+      "date": 1586543400745
+    },
+    {
+      "confirmedCases": "374",
+      "cured": "142",
+      "death": "2",
+      "date": 1586629800724
+    },
+    {
+      "confirmedCases": "376",
+      "cured": "179",
+      "death": "3",
+      "date": 1586716200598
+    },
+    {
+      "confirmedCases": "379",
+      "cured": "198",
+      "death": "3",
+      "date": 1586802600412
+    },
+    {
+      "confirmedCases": "387",
+      "cured": "211",
+      "death": "3",
+      "date": 1586889000472
+    },
+    {
+      "confirmedCases": "388",
+      "cured": "218",
+      "death": "3",
+      "date": 1586975400270
+    },
+    {
+      "confirmedCases": "395",
+      "cured": "245",
+      "death": "3",
+      "date": 1587061800444
+    },
+    {
+      "confirmedCases": "396",
+      "cured": "255",
+      "death": "3",
+      "date": 1587148200649
+    },
+    {
+      "confirmedCases": "400",
+      "cured": "257",
+      "death": "3",
+      "date": 1587234600387
+    },
+    {
+      "confirmedCases": "402",
+      "cured": "270",
+      "death": "3",
+      "date": 1587321000819
+    },
+    {
+      "confirmedCases": "408",
+      "cured": "291",
+      "death": "3",
+      "date": 1587407400305
+    },
+    {
+      "confirmedCases": "427",
+      "cured": "323",
+      "death": "3",
+      "date": 1587493800888
+    },
+    {
+      "confirmedCases": "438",
+      "cured": "324",
+      "death": "3",
+      "date": 1587580200742
+    },
+    {
+      "confirmedCases": "448",
+      "cured": "324",
+      "death": "3",
+      "date": 1587666600790
+    },
+    {
+      "confirmedCases": "451",
+      "cured": "331",
+      "death": "4",
+      "date": 1587753000462
+    },
+    {
+      "confirmedCases": "458",
+      "cured": "338",
+      "death": "4",
+      "date": 1587839400496
+    },
+    {
+      "confirmedCases": "469",
+      "cured": "342",
+      "death": "4",
+      "date": 1587925800309
+    },
+    {
+      "confirmedCases": "482",
+      "cured": "355",
+      "death": "4",
+      "date": 1588012201668
+    },
+    {
+      "confirmedCases": "486",
+      "cured": "359",
+      "death": "4",
+      "date": 1588098601244
     }
   ],
   "Madhya Pradesh": [
@@ -923,6 +2691,180 @@
       "cured": "0",
       "death": "3",
       "date": 1585593000608
+    },
+    {
+      "confirmedCases": "66",
+      "cured": "0",
+      "death": "3",
+      "date": 1585681080714
+    },
+    {
+      "confirmedCases": "99",
+      "cured": "0",
+      "death": "6",
+      "date": 1585765800580
+    },
+    {
+      "confirmedCases": "104",
+      "cured": "0",
+      "death": "6",
+      "date": 1585852200379
+    },
+    {
+      "confirmedCases": "104",
+      "cured": "0",
+      "death": "6",
+      "date": 1585938601271
+    },
+    {
+      "confirmedCases": "165",
+      "cured": "0",
+      "death": "9",
+      "date": 1586025000291
+    },
+    {
+      "confirmedCases": "165",
+      "cured": "0",
+      "death": "9",
+      "date": 1586111400323
+    },
+    {
+      "confirmedCases": "229",
+      "cured": "0",
+      "death": "13",
+      "date": 1586197804761
+    },
+    {
+      "confirmedCases": "229",
+      "cured": "0",
+      "death": "13",
+      "date": 1586284201365
+    },
+    {
+      "confirmedCases": "259",
+      "cured": "0",
+      "death": "16",
+      "date": 1586370600437
+    },
+    {
+      "confirmedCases": "259",
+      "cured": "0",
+      "death": "16",
+      "date": 1586457000441
+    },
+    {
+      "confirmedCases": "443",
+      "cured": "0",
+      "death": "33",
+      "date": 1586543400749
+    },
+    {
+      "confirmedCases": "564",
+      "cured": "0",
+      "death": "36",
+      "date": 1586629800799
+    },
+    {
+      "confirmedCases": "604",
+      "cured": "44",
+      "death": "43",
+      "date": 1586716200605
+    },
+    {
+      "confirmedCases": "730",
+      "cured": "51",
+      "death": "50",
+      "date": 1586802600415
+    },
+    {
+      "confirmedCases": "987",
+      "cured": "64",
+      "death": "53",
+      "date": 1586889000476
+    },
+    {
+      "confirmedCases": "1120",
+      "cured": "64",
+      "death": "53",
+      "date": 1586975400273
+    },
+    {
+      "confirmedCases": "1308",
+      "cured": "65",
+      "death": "57",
+      "date": 1587061800447
+    },
+    {
+      "confirmedCases": "1355",
+      "cured": "69",
+      "death": "69",
+      "date": 1587148200652
+    },
+    {
+      "confirmedCases": "1407",
+      "cured": "127",
+      "death": "70",
+      "date": 1587234600390
+    },
+    {
+      "confirmedCases": "1485",
+      "cured": "127",
+      "death": "74",
+      "date": 1587321000826
+    },
+    {
+      "confirmedCases": "1540",
+      "cured": "127",
+      "death": "76",
+      "date": 1587407400308
+    },
+    {
+      "confirmedCases": "1592",
+      "cured": "148",
+      "death": "80",
+      "date": 1587493800892
+    },
+    {
+      "confirmedCases": "1695",
+      "cured": "148",
+      "death": "81",
+      "date": 1587580200746
+    },
+    {
+      "confirmedCases": "1852",
+      "cured": "203",
+      "death": "83",
+      "date": 1587666600799
+    },
+    {
+      "confirmedCases": "1952",
+      "cured": "210",
+      "death": "92",
+      "date": 1587753000466
+    },
+    {
+      "confirmedCases": "2096",
+      "cured": "210",
+      "death": "99",
+      "date": 1587839400501
+    },
+    {
+      "confirmedCases": "2168",
+      "cured": "302",
+      "death": "106",
+      "date": 1587925800313
+    },
+    {
+      "confirmedCases": "2368",
+      "cured": "361",
+      "death": "113",
+      "date": 1588012201678
+    },
+    {
+      "confirmedCases": "2561",
+      "cured": "377",
+      "death": "119",
+      "date": 1588098601247
     }
   ],
   "Maharashtra": [
@@ -983,6 +2925,180 @@
       "cured": "39",
       "death": "9",
       "date": 1585593000610
+    },
+    {
+      "confirmedCases": "302",
+      "cured": "39",
+      "death": "9",
+      "date": 1585681080716
+    },
+    {
+      "confirmedCases": "335",
+      "cured": "42",
+      "death": "13",
+      "date": 1585765800581
+    },
+    {
+      "confirmedCases": "335",
+      "cured": "42",
+      "death": "16",
+      "date": 1585852200380
+    },
+    {
+      "confirmedCases": "490",
+      "cured": "42",
+      "death": "24",
+      "date": 1585938601274
+    },
+    {
+      "confirmedCases": "490",
+      "cured": "42",
+      "death": "24",
+      "date": 1586025000292
+    },
+    {
+      "confirmedCases": "748",
+      "cured": "56",
+      "death": "45",
+      "date": 1586111400324
+    },
+    {
+      "confirmedCases": "868",
+      "cured": "56",
+      "death": "48",
+      "date": 1586197805189
+    },
+    {
+      "confirmedCases": "1018",
+      "cured": "79",
+      "death": "64",
+      "date": 1586284201366
+    },
+    {
+      "confirmedCases": "1135",
+      "cured": "117",
+      "death": "72",
+      "date": 1586370600439
+    },
+    {
+      "confirmedCases": "1364",
+      "cured": "125",
+      "death": "97",
+      "date": 1586457000443
+    },
+    {
+      "confirmedCases": "1574",
+      "cured": "188",
+      "death": "110",
+      "date": 1586543400753
+    },
+    {
+      "confirmedCases": "1761",
+      "cured": "208",
+      "death": "127",
+      "date": 1586629800806
+    },
+    {
+      "confirmedCases": "1985",
+      "cured": "217",
+      "death": "149",
+      "date": 1586716200608
+    },
+    {
+      "confirmedCases": "2337",
+      "cured": "229",
+      "death": "160",
+      "date": 1586802600416
+    },
+    {
+      "confirmedCases": "2687",
+      "cured": "259",
+      "death": "178",
+      "date": 1586889000478
+    },
+    {
+      "confirmedCases": "2919",
+      "cured": "295",
+      "death": "187",
+      "date": 1586975400275
+    },
+    {
+      "confirmedCases": "3205",
+      "cured": "300",
+      "death": "194",
+      "date": 1587061800448
+    },
+    {
+      "confirmedCases": "3323",
+      "cured": "331",
+      "death": "201",
+      "date": 1587148200653
+    },
+    {
+      "confirmedCases": "3651",
+      "cured": "365",
+      "death": "211",
+      "date": 1587234600392
+    },
+    {
+      "confirmedCases": "4203",
+      "cured": "507",
+      "death": "223",
+      "date": 1587321000830
+    },
+    {
+      "confirmedCases": "4669",
+      "cured": "572",
+      "death": "232",
+      "date": 1587407400309
+    },
+    {
+      "confirmedCases": "5221",
+      "cured": "722",
+      "death": "251",
+      "date": 1587493800893
+    },
+    {
+      "confirmedCases": "5652",
+      "cured": "789",
+      "death": "269",
+      "date": 1587580200748
+    },
+    {
+      "confirmedCases": "6430",
+      "cured": "840",
+      "death": "283",
+      "date": 1587666600801
+    },
+    {
+      "confirmedCases": "6817",
+      "cured": "957",
+      "death": "301",
+      "date": 1587753000468
+    },
+    {
+      "confirmedCases": "7628",
+      "cured": "1076",
+      "death": "323",
+      "date": 1587839400503
+    },
+    {
+      "confirmedCases": "8068",
+      "cured": "1188",
+      "death": "342",
+      "date": 1587925800315
+    },
+    {
+      "confirmedCases": "8590",
+      "cured": "1282",
+      "death": "369",
+      "date": 1588012201680
+    },
+    {
+      "confirmedCases": "9318",
+      "cured": "1388",
+      "death": "400",
+      "date": 1588098601250
     }
   ],
   "Manipur": [
@@ -1043,6 +3159,180 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000611
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080717
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800582
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200381
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601276
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000293
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400326
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197805749
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201367
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586370600441
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586457000445
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586543400757
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586629800808
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586716200611
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586802600417
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586889000480
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586975400277
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587061800450
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587148200654
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587234600393
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587321000832
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587407400311
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587493800895
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587580200750
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587666600803
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587753000469
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587839400506
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587925800317
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1588012201682
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1588098601251
     }
   ],
   "Odisha": [
@@ -1103,6 +3393,180 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000613
+    },
+    {
+      "confirmedCases": "4",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080727
+    },
+    {
+      "confirmedCases": "4",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800585
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200383
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601300
+    },
+    {
+      "confirmedCases": "20",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000296
+    },
+    {
+      "confirmedCases": "21",
+      "cured": "2",
+      "death": "0",
+      "date": 1586111400330
+    },
+    {
+      "confirmedCases": "42",
+      "cured": "2",
+      "death": "1",
+      "date": 1586197806527
+    },
+    {
+      "confirmedCases": "42",
+      "cured": "2",
+      "death": "1",
+      "date": 1586284201369
+    },
+    {
+      "confirmedCases": "42",
+      "cured": "2",
+      "death": "1",
+      "date": 1586370600444
+    },
+    {
+      "confirmedCases": "44",
+      "cured": "2",
+      "death": "1",
+      "date": 1586457000464
+    },
+    {
+      "confirmedCases": "48",
+      "cured": "2",
+      "death": "1",
+      "date": 1586543400763
+    },
+    {
+      "confirmedCases": "54",
+      "cured": "12",
+      "death": "1",
+      "date": 1586629800823
+    },
+    {
+      "confirmedCases": "54",
+      "cured": "12",
+      "death": "1",
+      "date": 1586716200620
+    },
+    {
+      "confirmedCases": "55",
+      "cured": "18",
+      "death": "1",
+      "date": 1586802600423
+    },
+    {
+      "confirmedCases": "60",
+      "cured": "18",
+      "death": "1",
+      "date": 1586889000491
+    },
+    {
+      "confirmedCases": "60",
+      "cured": "18",
+      "death": "1",
+      "date": 1586975400286
+    },
+    {
+      "confirmedCases": "60",
+      "cured": "19",
+      "death": "1",
+      "date": 1587061800455
+    },
+    {
+      "confirmedCases": "60",
+      "cured": "21",
+      "death": "1",
+      "date": 1587148200809
+    },
+    {
+      "confirmedCases": "61",
+      "cured": "24",
+      "death": "1",
+      "date": 1587234600399
+    },
+    {
+      "confirmedCases": "68",
+      "cured": "24",
+      "death": "1",
+      "date": 1587321000841
+    },
+    {
+      "confirmedCases": "74",
+      "cured": "24",
+      "death": "1",
+      "date": 1587407400361
+    },
+    {
+      "confirmedCases": "82",
+      "cured": "30",
+      "death": "1",
+      "date": 1587493800900
+    },
+    {
+      "confirmedCases": "83",
+      "cured": "32",
+      "death": "1",
+      "date": 1587580200758
+    },
+    {
+      "confirmedCases": "90",
+      "cured": "33",
+      "death": "1",
+      "date": 1587666600871
+    },
+    {
+      "confirmedCases": "94",
+      "cured": "33",
+      "death": "1",
+      "date": 1587753000538
+    },
+    {
+      "confirmedCases": "103",
+      "cured": "34",
+      "death": "1",
+      "date": 1587839400513
+    },
+    {
+      "confirmedCases": "108",
+      "cured": "35",
+      "death": "1",
+      "date": 1587925800322
+    },
+    {
+      "confirmedCases": "118",
+      "cured": "37",
+      "death": "1",
+      "date": 1588012201707
+    },
+    {
+      "confirmedCases": "119",
+      "cured": "38",
+      "death": "1",
+      "date": 1588098601384
     }
   ],
   "Puducherry": [
@@ -1163,6 +3627,180 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000614
+    },
+    {
+      "confirmedCases": "3",
+      "cured": "1",
+      "death": "0",
+      "date": 1585681080729
+    },
+    {
+      "confirmedCases": "3",
+      "cured": "1",
+      "death": "0",
+      "date": 1585765800588
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1585852200384
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1585938601302
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1586025000297
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1586111400332
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1586197807198
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1586284201371
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1586370600445
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "1",
+      "death": "0",
+      "date": 1586457000467
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586543400765
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586629800851
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586716200623
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586802600425
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586889000493
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586975400288
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1587061800458
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587148200812
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587234600401
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587321000843
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587407400363
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587493800901
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587580200760
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587666600876
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587753000548
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "3",
+      "death": "0",
+      "date": 1587839400517
+    },
+    {
+      "confirmedCases": "8",
+      "cured": "3",
+      "death": "0",
+      "date": 1587925800324
+    },
+    {
+      "confirmedCases": "8",
+      "cured": "3",
+      "death": "0",
+      "date": 1588012201710
+    },
+    {
+      "confirmedCases": "8",
+      "cured": "3",
+      "death": "0",
+      "date": 1588098601459
     }
   ],
   "Punjab": [
@@ -1223,6 +3861,180 @@
       "cured": "1",
       "death": "3",
       "date": 1585593000615
+    },
+    {
+      "confirmedCases": "42",
+      "cured": "1",
+      "death": "3",
+      "date": 1585681080732
+    },
+    {
+      "confirmedCases": "46",
+      "cured": "1",
+      "death": "4",
+      "date": 1585765800590
+    },
+    {
+      "confirmedCases": "48",
+      "cured": "1",
+      "death": "5",
+      "date": 1585852200385
+    },
+    {
+      "confirmedCases": "57",
+      "cured": "1",
+      "death": "5",
+      "date": 1585938601304
+    },
+    {
+      "confirmedCases": "57",
+      "cured": "1",
+      "death": "5",
+      "date": 1586025000298
+    },
+    {
+      "confirmedCases": "76",
+      "cured": "4",
+      "death": "6",
+      "date": 1586111400334
+    },
+    {
+      "confirmedCases": "91",
+      "cured": "4",
+      "death": "7",
+      "date": 1586197807658
+    },
+    {
+      "confirmedCases": "91",
+      "cured": "4",
+      "death": "7",
+      "date": 1586284201372
+    },
+    {
+      "confirmedCases": "101",
+      "cured": "4",
+      "death": "8",
+      "date": 1586370600447
+    },
+    {
+      "confirmedCases": "132",
+      "cured": "5",
+      "death": "11",
+      "date": 1586457000469
+    },
+    {
+      "confirmedCases": "132",
+      "cured": "5",
+      "death": "11",
+      "date": 1586543400767
+    },
+    {
+      "confirmedCases": "151",
+      "cured": "5",
+      "death": "11",
+      "date": 1586629800853
+    },
+    {
+      "confirmedCases": "167",
+      "cured": "14",
+      "death": "11",
+      "date": 1586716200626
+    },
+    {
+      "confirmedCases": "176",
+      "cured": "14",
+      "death": "12",
+      "date": 1586802600427
+    },
+    {
+      "confirmedCases": "186",
+      "cured": "14",
+      "death": "13",
+      "date": 1586889000495
+    },
+    {
+      "confirmedCases": "186",
+      "cured": "27",
+      "death": "13",
+      "date": 1586975400290
+    },
+    {
+      "confirmedCases": "186",
+      "cured": "27",
+      "death": "13",
+      "date": 1587061800459
+    },
+    {
+      "confirmedCases": "202",
+      "cured": "27",
+      "death": "13",
+      "date": 1587148200837
+    },
+    {
+      "confirmedCases": "219",
+      "cured": "31",
+      "death": "16",
+      "date": 1587234600402
+    },
+    {
+      "confirmedCases": "219",
+      "cured": "31",
+      "death": "16",
+      "date": 1587321000846
+    },
+    {
+      "confirmedCases": "245",
+      "cured": "39",
+      "death": "16",
+      "date": 1587407400365
+    },
+    {
+      "confirmedCases": "251",
+      "cured": "49",
+      "death": "16",
+      "date": 1587493800903
+    },
+    {
+      "confirmedCases": "277",
+      "cured": "65",
+      "death": "16",
+      "date": 1587580200762
+    },
+    {
+      "confirmedCases": "277",
+      "cured": "65",
+      "death": "16",
+      "date": 1587666600879
+    },
+    {
+      "confirmedCases": "298",
+      "cured": "67",
+      "death": "17",
+      "date": 1587753000555
+    },
+    {
+      "confirmedCases": "298",
+      "cured": "67",
+      "death": "17",
+      "date": 1587839400521
+    },
+    {
+      "confirmedCases": "313",
+      "cured": "71",
+      "death": "18",
+      "date": 1587925800326
+    },
+    {
+      "confirmedCases": "313",
+      "cured": "71",
+      "death": "18",
+      "date": 1588012201850
+    },
+    {
+      "confirmedCases": "322",
+      "cured": "71",
+      "death": "19",
+      "date": 1588098601604
     }
   ],
   "Rajasthan": [
@@ -1283,6 +4095,180 @@
       "cured": "3",
       "death": "0",
       "date": 1585593000616
+    },
+    {
+      "confirmedCases": "93",
+      "cured": "3",
+      "death": "0",
+      "date": 1585681080734
+    },
+    {
+      "confirmedCases": "108",
+      "cured": "3",
+      "death": "0",
+      "date": 1585765800591
+    },
+    {
+      "confirmedCases": "167",
+      "cured": "3",
+      "death": "0",
+      "date": 1585852200387
+    },
+    {
+      "confirmedCases": "200",
+      "cured": "21",
+      "death": "0",
+      "date": 1585938601306
+    },
+    {
+      "confirmedCases": "200",
+      "cured": "21",
+      "death": "0",
+      "date": 1586025000299
+    },
+    {
+      "confirmedCases": "274",
+      "cured": "21",
+      "death": "0",
+      "date": 1586111400335
+    },
+    {
+      "confirmedCases": "288",
+      "cured": "21",
+      "death": "3",
+      "date": 1586197808011
+    },
+    {
+      "confirmedCases": "328",
+      "cured": "21",
+      "death": "3",
+      "date": 1586284201373
+    },
+    {
+      "confirmedCases": "383",
+      "cured": "21",
+      "death": "3",
+      "date": 1586370600448
+    },
+    {
+      "confirmedCases": "463",
+      "cured": "21",
+      "death": "3",
+      "date": 1586457000471
+    },
+    {
+      "confirmedCases": "553",
+      "cured": "21",
+      "death": "3",
+      "date": 1586543400769
+    },
+    {
+      "confirmedCases": "700",
+      "cured": "21",
+      "death": "3",
+      "date": 1586629800856
+    },
+    {
+      "confirmedCases": "812",
+      "cured": "21",
+      "death": "3",
+      "date": 1586716200629
+    },
+    {
+      "confirmedCases": "879",
+      "cured": "133",
+      "death": "3",
+      "date": 1586802600428
+    },
+    {
+      "confirmedCases": "1005",
+      "cured": "147",
+      "death": "3",
+      "date": 1586889000499
+    },
+    {
+      "confirmedCases": "1023",
+      "cured": "147",
+      "death": "3",
+      "date": 1586975400291
+    },
+    {
+      "confirmedCases": "1131",
+      "cured": "164",
+      "death": "11",
+      "date": 1587061800460
+    },
+    {
+      "confirmedCases": "1229",
+      "cured": "183",
+      "death": "11",
+      "date": 1587148200842
+    },
+    {
+      "confirmedCases": "1351",
+      "cured": "183",
+      "death": "11",
+      "date": 1587234600404
+    },
+    {
+      "confirmedCases": "1478",
+      "cured": "183",
+      "death": "14",
+      "date": 1587321000850
+    },
+    {
+      "confirmedCases": "1576",
+      "cured": "205",
+      "death": "25",
+      "date": 1587407400366
+    },
+    {
+      "confirmedCases": "1801",
+      "cured": "230",
+      "death": "25",
+      "date": 1587493800907
+    },
+    {
+      "confirmedCases": "1890",
+      "cured": "230",
+      "death": "27",
+      "date": 1587580200764
+    },
+    {
+      "confirmedCases": "1964",
+      "cured": "230",
+      "death": "27",
+      "date": 1587666600882
+    },
+    {
+      "confirmedCases": "2034",
+      "cured": "230",
+      "death": "27",
+      "date": 1587753000563
+    },
+    {
+      "confirmedCases": "2083",
+      "cured": "493",
+      "death": "33",
+      "date": 1587839400523
+    },
+    {
+      "confirmedCases": "2185",
+      "cured": "518",
+      "death": "41",
+      "date": 1587925800328
+    },
+    {
+      "confirmedCases": "2262",
+      "cured": "669",
+      "death": "46",
+      "date": 1588012201854
+    },
+    {
+      "confirmedCases": "2364",
+      "cured": "768",
+      "death": "51",
+      "date": 1588098601606
     }
   ],
   "Tamil Nadu": [
@@ -1343,6 +4329,180 @@
       "cured": "4",
       "death": "1",
       "date": 1585593000617
+    },
+    {
+      "confirmedCases": "234",
+      "cured": "6",
+      "death": "1",
+      "date": 1585681080736
+    },
+    {
+      "confirmedCases": "234",
+      "cured": "6",
+      "death": "1",
+      "date": 1585765800592
+    },
+    {
+      "confirmedCases": "309",
+      "cured": "6",
+      "death": "1",
+      "date": 1585852200388
+    },
+    {
+      "confirmedCases": "411",
+      "cured": "6",
+      "death": "2",
+      "date": 1585938601309
+    },
+    {
+      "confirmedCases": "485",
+      "cured": "6",
+      "death": "3",
+      "date": 1586025000300
+    },
+    {
+      "confirmedCases": "571",
+      "cured": "8",
+      "death": "5",
+      "date": 1586111400337
+    },
+    {
+      "confirmedCases": "621",
+      "cured": "8",
+      "death": "5",
+      "date": 1586197808352
+    },
+    {
+      "confirmedCases": "690",
+      "cured": "19",
+      "death": "7",
+      "date": 1586284201375
+    },
+    {
+      "confirmedCases": "738",
+      "cured": "21",
+      "death": "8",
+      "date": 1586370600450
+    },
+    {
+      "confirmedCases": "834",
+      "cured": "21",
+      "death": "8",
+      "date": 1586457000473
+    },
+    {
+      "confirmedCases": "911",
+      "cured": "44",
+      "death": "8",
+      "date": 1586543400771
+    },
+    {
+      "confirmedCases": "969",
+      "cured": "44",
+      "death": "10",
+      "date": 1586629800858
+    },
+    {
+      "confirmedCases": "1075",
+      "cured": "50",
+      "death": "11",
+      "date": 1586716200631
+    },
+    {
+      "confirmedCases": "1173",
+      "cured": "58",
+      "death": "11",
+      "date": 1586802600429
+    },
+    {
+      "confirmedCases": "1204",
+      "cured": "81",
+      "death": "12",
+      "date": 1586889000501
+    },
+    {
+      "confirmedCases": "1242",
+      "cured": "118",
+      "death": "14",
+      "date": 1586975400292
+    },
+    {
+      "confirmedCases": "1267",
+      "cured": "180",
+      "death": "15",
+      "date": 1587061800462
+    },
+    {
+      "confirmedCases": "1323",
+      "cured": "283",
+      "death": "15",
+      "date": 1587148200887
+    },
+    {
+      "confirmedCases": "1372",
+      "cured": "365",
+      "death": "15",
+      "date": 1587234600405
+    },
+    {
+      "confirmedCases": "1477",
+      "cured": "411",
+      "death": "15",
+      "date": 1587321000852
+    },
+    {
+      "confirmedCases": "1520",
+      "cured": "457",
+      "death": "17",
+      "date": 1587407400368
+    },
+    {
+      "confirmedCases": "1596",
+      "cured": "635",
+      "death": "18",
+      "date": 1587493800908
+    },
+    {
+      "confirmedCases": "1629",
+      "cured": "662",
+      "death": "18",
+      "date": 1587580200766
+    },
+    {
+      "confirmedCases": "1683",
+      "cured": "752",
+      "death": "20",
+      "date": 1587666600885
+    },
+    {
+      "confirmedCases": "1755",
+      "cured": "866",
+      "death": "22",
+      "date": 1587753000607
+    },
+    {
+      "confirmedCases": "1821",
+      "cured": "960",
+      "death": "23",
+      "date": 1587839400526
+    },
+    {
+      "confirmedCases": "1885",
+      "cured": "1020",
+      "death": "24",
+      "date": 1587925800330
+    },
+    {
+      "confirmedCases": "1937",
+      "cured": "1101",
+      "death": "24",
+      "date": 1588012201857
+    },
+    {
+      "confirmedCases": "2058",
+      "cured": "1168",
+      "death": "25",
+      "date": 1588098601608
     }
   ],
   "Telengana": [
@@ -1403,6 +4563,180 @@
       "cured": "1",
       "death": "1",
       "date": 1585593000618
+    },
+    {
+      "confirmedCases": "96",
+      "cured": "1",
+      "death": "3",
+      "date": 1585681080738
+    },
+    {
+      "confirmedCases": "107",
+      "cured": "1",
+      "death": "3",
+      "date": 1585765800594
+    },
+    {
+      "confirmedCases": "158",
+      "cured": "1",
+      "death": "7",
+      "date": 1585852200390
+    },
+    {
+      "confirmedCases": "159",
+      "cured": "1",
+      "death": "7",
+      "date": 1585938601317
+    },
+    {
+      "confirmedCases": "269",
+      "cured": "32",
+      "death": "7",
+      "date": 1586025000302
+    },
+    {
+      "confirmedCases": "321",
+      "cured": "34",
+      "death": "7",
+      "date": 1586111400338
+    },
+    {
+      "confirmedCases": "364",
+      "cured": "35",
+      "death": "7",
+      "date": 1586197808865
+    },
+    {
+      "confirmedCases": "427",
+      "cured": "35",
+      "death": "7",
+      "date": 1586284201376
+    },
+    {
+      "confirmedCases": "442",
+      "cured": "35",
+      "death": "7",
+      "date": 1586370600451
+    },
+    {
+      "confirmedCases": "473",
+      "cured": "35",
+      "death": "7",
+      "date": 1586457000475
+    },
+    {
+      "confirmedCases": "504",
+      "cured": "43",
+      "death": "9",
+      "date": 1586543400774
+    },
+    {
+      "confirmedCases": "504",
+      "cured": "43",
+      "death": "9",
+      "date": 1586629800866
+    },
+    {
+      "confirmedCases": "562",
+      "cured": "100",
+      "death": "16",
+      "date": 1586716200635
+    },
+    {
+      "confirmedCases": "624",
+      "cured": "100",
+      "death": "17",
+      "date": 1586802600431
+    },
+    {
+      "confirmedCases": "647",
+      "cured": "120",
+      "death": "18",
+      "date": 1586889000503
+    },
+    {
+      "confirmedCases": "698",
+      "cured": "120",
+      "death": "18",
+      "date": 1586975400294
+    },
+    {
+      "confirmedCases": "743",
+      "cured": "186",
+      "death": "18",
+      "date": 1587061800463
+    },
+    {
+      "confirmedCases": "791",
+      "cured": "186",
+      "death": "18",
+      "date": 1587148200894
+    },
+    {
+      "confirmedCases": "844",
+      "cured": "186",
+      "death": "18",
+      "date": 1587234600406
+    },
+    {
+      "confirmedCases": "873",
+      "cured": "190",
+      "death": "21",
+      "date": 1587321000854
+    },
+    {
+      "confirmedCases": "919",
+      "cured": "190",
+      "death": "23",
+      "date": 1587407400369
+    },
+    {
+      "confirmedCases": "945",
+      "cured": "194",
+      "death": "23",
+      "date": 1587493800910
+    },
+    {
+      "confirmedCases": "960",
+      "cured": "197",
+      "death": "24",
+      "date": 1587580200790
+    },
+    {
+      "confirmedCases": "984",
+      "cured": "253",
+      "death": "26",
+      "date": 1587666600887
+    },
+    {
+      "confirmedCases": "984",
+      "cured": "253",
+      "death": "26",
+      "date": 1587753000610
+    },
+    {
+      "confirmedCases": "991",
+      "cured": "280",
+      "death": "26",
+      "date": 1587839400529
+    },
+    {
+      "confirmedCases": "1002",
+      "cured": "280",
+      "death": "26",
+      "date": 1587925800332
+    },
+    {
+      "confirmedCases": "1004",
+      "cured": "321",
+      "death": "26",
+      "date": 1588012201860
+    },
+    {
+      "confirmedCases": "1012",
+      "cured": "367",
+      "death": "26",
+      "date": 1588098601611
     }
   ],
   "Chandigarh": [
@@ -1463,6 +4797,180 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000597
+    },
+    {
+      "confirmedCases": "16",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080693
+    },
+    {
+      "confirmedCases": "16",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800470
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200365
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601224
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000272
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400198
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "7",
+      "death": "0",
+      "date": 1586197803851
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "7",
+      "death": "0",
+      "date": 1586284201350
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "7",
+      "death": "0",
+      "date": 1586370600409
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "7",
+      "death": "0",
+      "date": 1586457000419
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "7",
+      "death": "0",
+      "date": 1586543400675
+    },
+    {
+      "confirmedCases": "19",
+      "cured": "7",
+      "death": "0",
+      "date": 1586629800701
+    },
+    {
+      "confirmedCases": "21",
+      "cured": "7",
+      "death": "0",
+      "date": 1586716200487
+    },
+    {
+      "confirmedCases": "21",
+      "cured": "7",
+      "death": "0",
+      "date": 1586802600394
+    },
+    {
+      "confirmedCases": "21",
+      "cured": "7",
+      "death": "0",
+      "date": 1586889000448
+    },
+    {
+      "confirmedCases": "21",
+      "cured": "7",
+      "death": "0",
+      "date": 1586975400250
+    },
+    {
+      "confirmedCases": "21",
+      "cured": "9",
+      "death": "0",
+      "date": 1587061800423
+    },
+    {
+      "confirmedCases": "21",
+      "cured": "9",
+      "death": "0",
+      "date": 1587148200620
+    },
+    {
+      "confirmedCases": "23",
+      "cured": "10",
+      "death": "0",
+      "date": 1587234600367
+    },
+    {
+      "confirmedCases": "26",
+      "cured": "13",
+      "death": "0",
+      "date": 1587321000586
+    },
+    {
+      "confirmedCases": "26",
+      "cured": "13",
+      "death": "0",
+      "date": 1587407400288
+    },
+    {
+      "confirmedCases": "27",
+      "cured": "14",
+      "death": "0",
+      "date": 1587493800860
+    },
+    {
+      "confirmedCases": "27",
+      "cured": "14",
+      "death": "0",
+      "date": 1587580200500
+    },
+    {
+      "confirmedCases": "27",
+      "cured": "14",
+      "death": "0",
+      "date": 1587666600717
+    },
+    {
+      "confirmedCases": "28",
+      "cured": "15",
+      "death": "0",
+      "date": 1587753000428
+    },
+    {
+      "confirmedCases": "30",
+      "cured": "17",
+      "death": "0",
+      "date": 1587839400433
+    },
+    {
+      "confirmedCases": "30",
+      "cured": "17",
+      "death": "0",
+      "date": 1587925800265
+    },
+    {
+      "confirmedCases": "40",
+      "cured": "17",
+      "death": "0",
+      "date": 1588012201608
+    },
+    {
+      "confirmedCases": "56",
+      "cured": "17",
+      "death": "0",
+      "date": 1588098601037
     }
   ],
   "Jammu and Kashmir": [
@@ -1523,6 +5031,180 @@
       "cured": "2",
       "death": "2",
       "date": 1585593000605
+    },
+    {
+      "confirmedCases": "62",
+      "cured": "2",
+      "death": "2",
+      "date": 1585681080706
+    },
+    {
+      "confirmedCases": "62",
+      "cured": "2",
+      "death": "2",
+      "date": 1585765800572
+    },
+    {
+      "confirmedCases": "75",
+      "cured": "3",
+      "death": "2",
+      "date": 1585852200374
+    },
+    {
+      "confirmedCases": "75",
+      "cured": "3",
+      "death": "2",
+      "date": 1585938601261
+    },
+    {
+      "confirmedCases": "106",
+      "cured": "4",
+      "death": "2",
+      "date": 1586025000284
+    },
+    {
+      "confirmedCases": "109",
+      "cured": "4",
+      "death": "2",
+      "date": 1586111400312
+    },
+    {
+      "confirmedCases": "116",
+      "cured": "4",
+      "death": "2",
+      "date": 1586197804751
+    },
+    {
+      "confirmedCases": "116",
+      "cured": "4",
+      "death": "2",
+      "date": 1586284201359
+    },
+    {
+      "confirmedCases": "158",
+      "cured": "4",
+      "death": "4",
+      "date": 1586370600428
+    },
+    {
+      "confirmedCases": "184",
+      "cured": "6",
+      "death": "4",
+      "date": 1586457000431
+    },
+    {
+      "confirmedCases": "207",
+      "cured": "6",
+      "death": "4",
+      "date": 1586543400700
+    },
+    {
+      "confirmedCases": "224",
+      "cured": "6",
+      "death": "4",
+      "date": 1586629800716
+    },
+    {
+      "confirmedCases": "245",
+      "cured": "6",
+      "death": "4",
+      "date": 1586716200552
+    },
+    {
+      "confirmedCases": "270",
+      "cured": "16",
+      "death": "4",
+      "date": 1586802600407
+    },
+    {
+      "confirmedCases": "278",
+      "cured": "30",
+      "death": "4",
+      "date": 1586889000465
+    },
+    {
+      "confirmedCases": "300",
+      "cured": "36",
+      "death": "4",
+      "date": 1586975400264
+    },
+    {
+      "confirmedCases": "314",
+      "cured": "38",
+      "death": "4",
+      "date": 1587061800440
+    },
+    {
+      "confirmedCases": "328",
+      "cured": "42",
+      "death": "5",
+      "date": 1587148200642
+    },
+    {
+      "confirmedCases": "341",
+      "cured": "51",
+      "death": "5",
+      "date": 1587234600382
+    },
+    {
+      "confirmedCases": "350",
+      "cured": "56",
+      "death": "5",
+      "date": 1587321000804
+    },
+    {
+      "confirmedCases": "368",
+      "cured": "71",
+      "death": "5",
+      "date": 1587407400300
+    },
+    {
+      "confirmedCases": "380",
+      "cured": "81",
+      "death": "5",
+      "date": 1587493800882
+    },
+    {
+      "confirmedCases": "407",
+      "cured": "92",
+      "death": "5",
+      "date": 1587580200737
+    },
+    {
+      "confirmedCases": "427",
+      "cured": "92",
+      "death": "5",
+      "date": 1587666600779
+    },
+    {
+      "confirmedCases": "454",
+      "cured": "109",
+      "death": "5",
+      "date": 1587753000457
+    },
+    {
+      "confirmedCases": "494",
+      "cured": "112",
+      "death": "6",
+      "date": 1587839400458
+    },
+    {
+      "confirmedCases": "523",
+      "cured": "137",
+      "death": "6",
+      "date": 1587925800279
+    },
+    {
+      "confirmedCases": "546",
+      "cured": "164",
+      "death": "7",
+      "date": 1588012201659
+    },
+    {
+      "confirmedCases": "565",
+      "cured": "176",
+      "death": "8",
+      "date": 1588098601237
     }
   ],
   "Ladakh": [
@@ -1583,6 +5265,180 @@
       "cured": "3",
       "death": "0",
       "date": 1585593000608
+    },
+    {
+      "confirmedCases": "13",
+      "cured": "3",
+      "death": "0",
+      "date": 1585681080713
+    },
+    {
+      "confirmedCases": "13",
+      "cured": "3",
+      "death": "0",
+      "date": 1585765800579
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "3",
+      "death": "0",
+      "date": 1585852200378
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "3",
+      "death": "0",
+      "date": 1585938601270
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "10",
+      "death": "0",
+      "date": 1586025000289
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "10",
+      "death": "0",
+      "date": 1586111400321
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "10",
+      "death": "0",
+      "date": 1586197804758
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "10",
+      "death": "0",
+      "date": 1586284201364
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "10",
+      "death": "0",
+      "date": 1586370600436
+    },
+    {
+      "confirmedCases": "15",
+      "cured": "10",
+      "death": "0",
+      "date": 1586457000440
+    },
+    {
+      "confirmedCases": "15",
+      "cured": "10",
+      "death": "0",
+      "date": 1586543400747
+    },
+    {
+      "confirmedCases": "15",
+      "cured": "10",
+      "death": "0",
+      "date": 1586629800792
+    },
+    {
+      "confirmedCases": "15",
+      "cured": "10",
+      "death": "0",
+      "date": 1586716200601
+    },
+    {
+      "confirmedCases": "15",
+      "cured": "10",
+      "death": "0",
+      "date": 1586802600413
+    },
+    {
+      "confirmedCases": "17",
+      "cured": "10",
+      "death": "0",
+      "date": 1586889000474
+    },
+    {
+      "confirmedCases": "17",
+      "cured": "10",
+      "death": "0",
+      "date": 1586975400272
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587061800445
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587148200650
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587234600389
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587321000822
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587407400306
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587493800890
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587580200744
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "14",
+      "death": "0",
+      "date": 1587666600794
+    },
+    {
+      "confirmedCases": "20",
+      "cured": "14",
+      "death": "0",
+      "date": 1587753000464
+    },
+    {
+      "confirmedCases": "20",
+      "cured": "14",
+      "death": "0",
+      "date": 1587839400498
+    },
+    {
+      "confirmedCases": "20",
+      "cured": "14",
+      "death": "0",
+      "date": 1587925800311
+    },
+    {
+      "confirmedCases": "22",
+      "cured": "16",
+      "death": "0",
+      "date": 1588012201676
+    },
+    {
+      "confirmedCases": "22",
+      "cured": "16",
+      "death": "0",
+      "date": 1588098601246
     }
   ],
   "Uttar Pradesh": [
@@ -1643,6 +5499,180 @@
       "cured": "14",
       "death": "0",
       "date": 1585593000622
+    },
+    {
+      "confirmedCases": "103",
+      "cured": "14",
+      "death": "2",
+      "date": 1585681080742
+    },
+    {
+      "confirmedCases": "113",
+      "cured": "14",
+      "death": "2",
+      "date": 1585765800598
+    },
+    {
+      "confirmedCases": "172",
+      "cured": "14",
+      "death": "2",
+      "date": 1585852200392
+    },
+    {
+      "confirmedCases": "174",
+      "cured": "19",
+      "death": "2",
+      "date": 1585938601321
+    },
+    {
+      "confirmedCases": "227",
+      "cured": "19",
+      "death": "2",
+      "date": 1586025000305
+    },
+    {
+      "confirmedCases": "305",
+      "cured": "21",
+      "death": "3",
+      "date": 1586111400342
+    },
+    {
+      "confirmedCases": "305",
+      "cured": "21",
+      "death": "3",
+      "date": 1586197810534
+    },
+    {
+      "confirmedCases": "343",
+      "cured": "26",
+      "death": "3",
+      "date": 1586284201379
+    },
+    {
+      "confirmedCases": "410",
+      "cured": "31",
+      "death": "4",
+      "date": 1586370600457
+    },
+    {
+      "confirmedCases": "431",
+      "cured": "32",
+      "death": "4",
+      "date": 1586457000481
+    },
+    {
+      "confirmedCases": "433",
+      "cured": "32",
+      "death": "4",
+      "date": 1586543400814
+    },
+    {
+      "confirmedCases": "452",
+      "cured": "45",
+      "death": "5",
+      "date": 1586629800880
+    },
+    {
+      "confirmedCases": "483",
+      "cured": "47",
+      "death": "5",
+      "date": 1586716200640
+    },
+    {
+      "confirmedCases": "657",
+      "cured": "49",
+      "death": "5",
+      "date": 1586802600434
+    },
+    {
+      "confirmedCases": "735",
+      "cured": "51",
+      "death": "11",
+      "date": 1586889000511
+    },
+    {
+      "confirmedCases": "773",
+      "cured": "68",
+      "death": "13",
+      "date": 1586975400299
+    },
+    {
+      "confirmedCases": "846",
+      "cured": "74",
+      "death": "14",
+      "date": 1587061800467
+    },
+    {
+      "confirmedCases": "969",
+      "cured": "86",
+      "death": "14",
+      "date": 1587148200909
+    },
+    {
+      "confirmedCases": "1084",
+      "cured": "108",
+      "death": "17",
+      "date": 1587234600412
+    },
+    {
+      "confirmedCases": "1176",
+      "cured": "129",
+      "death": "17",
+      "date": 1587321000860
+    },
+    {
+      "confirmedCases": "1294",
+      "cured": "140",
+      "death": "20",
+      "date": 1587407400430
+    },
+    {
+      "confirmedCases": "1412",
+      "cured": "165",
+      "death": "21",
+      "date": 1587493800914
+    },
+    {
+      "confirmedCases": "1509",
+      "cured": "187",
+      "death": "21",
+      "date": 1587580200820
+    },
+    {
+      "confirmedCases": "1604",
+      "cured": "206",
+      "death": "24",
+      "date": 1587666600894
+    },
+    {
+      "confirmedCases": "1778",
+      "cured": "248",
+      "death": "26",
+      "date": 1587753000623
+    },
+    {
+      "confirmedCases": "1843",
+      "cured": "289",
+      "death": "29",
+      "date": 1587839400536
+    },
+    {
+      "confirmedCases": "1955",
+      "cured": "335",
+      "death": "31",
+      "date": 1587925800359
+    },
+    {
+      "confirmedCases": "2043",
+      "cured": "400",
+      "death": "31",
+      "date": 1588012201873
+    },
+    {
+      "confirmedCases": "2115",
+      "cured": "477",
+      "death": "36",
+      "date": 1588098601618
     }
   ],
   "Uttarakhand": [
@@ -1703,6 +5733,180 @@
       "cured": "2",
       "death": "0",
       "date": 1585593000619
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "2",
+      "death": "0",
+      "date": 1585681080740
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "2",
+      "death": "0",
+      "date": 1585765800595
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "2",
+      "death": "0",
+      "date": 1585852200391
+    },
+    {
+      "confirmedCases": "16",
+      "cured": "2",
+      "death": "0",
+      "date": 1585938601319
+    },
+    {
+      "confirmedCases": "22",
+      "cured": "2",
+      "death": "0",
+      "date": 1586025000304
+    },
+    {
+      "confirmedCases": "26",
+      "cured": "4",
+      "death": "0",
+      "date": 1586111400340
+    },
+    {
+      "confirmedCases": "31",
+      "cured": "5",
+      "death": "0",
+      "date": 1586197809902
+    },
+    {
+      "confirmedCases": "31",
+      "cured": "5",
+      "death": "0",
+      "date": 1586284201378
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "5",
+      "death": "0",
+      "date": 1586370600455
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "5",
+      "death": "0",
+      "date": 1586457000479
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "5",
+      "death": "0",
+      "date": 1586543400812
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "5",
+      "death": "0",
+      "date": 1586629800871
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "5",
+      "death": "0",
+      "date": 1586716200639
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "7",
+      "death": "0",
+      "date": 1586802600433
+    },
+    {
+      "confirmedCases": "37",
+      "cured": "9",
+      "death": "0",
+      "date": 1586889000508
+    },
+    {
+      "confirmedCases": "37",
+      "cured": "9",
+      "death": "0",
+      "date": 1586975400296
+    },
+    {
+      "confirmedCases": "37",
+      "cured": "9",
+      "death": "0",
+      "date": 1587061800466
+    },
+    {
+      "confirmedCases": "42",
+      "cured": "9",
+      "death": "0",
+      "date": 1587148200904
+    },
+    {
+      "confirmedCases": "42",
+      "cured": "9",
+      "death": "0",
+      "date": 1587234600410
+    },
+    {
+      "confirmedCases": "44",
+      "cured": "11",
+      "death": "0",
+      "date": 1587321000858
+    },
+    {
+      "confirmedCases": "46",
+      "cured": "18",
+      "death": "0",
+      "date": 1587407400425
+    },
+    {
+      "confirmedCases": "46",
+      "cured": "19",
+      "death": "0",
+      "date": 1587493800913
+    },
+    {
+      "confirmedCases": "46",
+      "cured": "23",
+      "death": "0",
+      "date": 1587580200793
+    },
+    {
+      "confirmedCases": "47",
+      "cured": "24",
+      "death": "0",
+      "date": 1587666600893
+    },
+    {
+      "confirmedCases": "48",
+      "cured": "25",
+      "death": "0",
+      "date": 1587753000619
+    },
+    {
+      "confirmedCases": "50",
+      "cured": "26",
+      "death": "0",
+      "date": 1587839400534
+    },
+    {
+      "confirmedCases": "51",
+      "cured": "33",
+      "death": "0",
+      "date": 1587925800338
+    },
+    {
+      "confirmedCases": "51",
+      "cured": "33",
+      "death": "0",
+      "date": 1588012201869
+    },
+    {
+      "confirmedCases": "54",
+      "cured": "34",
+      "death": "0",
+      "date": 1588098601615
     }
   ],
   "West Bengal": [
@@ -1763,6 +5967,180 @@
       "cured": "0",
       "death": "2",
       "date": 1585593000624
+    },
+    {
+      "confirmedCases": "37",
+      "cured": "6",
+      "death": "3",
+      "date": 1585681080744
+    },
+    {
+      "confirmedCases": "53",
+      "cured": "6",
+      "death": "3",
+      "date": 1585765800600
+    },
+    {
+      "confirmedCases": "63",
+      "cured": "3",
+      "death": "3",
+      "date": 1585852200393
+    },
+    {
+      "confirmedCases": "69",
+      "cured": "3",
+      "death": "3",
+      "date": 1585938601324
+    },
+    {
+      "confirmedCases": "80",
+      "cured": "10",
+      "death": "3",
+      "date": 1586025000307
+    },
+    {
+      "confirmedCases": "80",
+      "cured": "10",
+      "death": "3",
+      "date": 1586111400344
+    },
+    {
+      "confirmedCases": "91",
+      "cured": "13",
+      "death": "3",
+      "date": 1586197811376
+    },
+    {
+      "confirmedCases": "99",
+      "cured": "13",
+      "death": "5",
+      "date": 1586284201381
+    },
+    {
+      "confirmedCases": "103",
+      "cured": "16",
+      "death": "5",
+      "date": 1586370600459
+    },
+    {
+      "confirmedCases": "116",
+      "cured": "16",
+      "death": "5",
+      "date": 1586457000483
+    },
+    {
+      "confirmedCases": "126",
+      "cured": "16",
+      "death": "5",
+      "date": 1586543400817
+    },
+    {
+      "confirmedCases": "134",
+      "cured": "19",
+      "death": "5",
+      "date": 1586629800882
+    },
+    {
+      "confirmedCases": "152",
+      "cured": "29",
+      "death": "7",
+      "date": 1586716200641
+    },
+    {
+      "confirmedCases": "190",
+      "cured": "36",
+      "death": "7",
+      "date": 1586802600435
+    },
+    {
+      "confirmedCases": "213",
+      "cured": "37",
+      "death": "7",
+      "date": 1586889000513
+    },
+    {
+      "confirmedCases": "231",
+      "cured": "42",
+      "death": "7",
+      "date": 1586975400300
+    },
+    {
+      "confirmedCases": "255",
+      "cured": "51",
+      "death": "10",
+      "date": 1587061800468
+    },
+    {
+      "confirmedCases": "287",
+      "cured": "55",
+      "death": "10",
+      "date": 1587148200915
+    },
+    {
+      "confirmedCases": "310",
+      "cured": "62",
+      "death": "12",
+      "date": 1587234600485
+    },
+    {
+      "confirmedCases": "339",
+      "cured": "66",
+      "death": "12",
+      "date": 1587321000862
+    },
+    {
+      "confirmedCases": "392",
+      "cured": "73",
+      "death": "12",
+      "date": 1587407400438
+    },
+    {
+      "confirmedCases": "423",
+      "cured": "73",
+      "death": "15",
+      "date": 1587493800917
+    },
+    {
+      "confirmedCases": "456",
+      "cured": "79",
+      "death": "15",
+      "date": 1587580200822
+    },
+    {
+      "confirmedCases": "514",
+      "cured": "103",
+      "death": "15",
+      "date": 1587666600896
+    },
+    {
+      "confirmedCases": "571",
+      "cured": "103",
+      "death": "18",
+      "date": 1587753000628
+    },
+    {
+      "confirmedCases": "611",
+      "cured": "105",
+      "death": "18",
+      "date": 1587839400538
+    },
+    {
+      "confirmedCases": "649",
+      "cured": "105",
+      "death": "20",
+      "date": 1587925800361
+    },
+    {
+      "confirmedCases": "697",
+      "cured": "109",
+      "death": "20",
+      "date": 1588012201876
+    },
+    {
+      "confirmedCases": "725",
+      "cured": "119",
+      "death": "22",
+      "date": 1588098601620
     }
   ],
   "Mizoram": [
@@ -1815,6 +6193,180 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000612
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080725
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800584
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200382
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601296
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000295
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400329
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197806140
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201368
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586370600442
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586457000462
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586543400760
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586629800820
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586716200615
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586802600421
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586889000485
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586975400282
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587061800452
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587148200659
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587234600396
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587321000837
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587407400358
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587493800898
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587580200756
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587666600807
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587753000472
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587839400511
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587925800321
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1588012201688
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1588098601376
     }
   ],
   "Andaman and Nicobar Islands": [
@@ -1859,6 +6411,180 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000595
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "1",
+      "death": "0",
+      "date": 1585681080686
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800350
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200359
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601217
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000267
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400193
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197801583
+    },
+    {
+      "confirmedCases": "10",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201345
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "0",
+      "death": "0",
+      "date": 1586370600394
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "0",
+      "death": "0",
+      "date": 1586457000307
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "0",
+      "death": "0",
+      "date": 1586543400640
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "10",
+      "death": "0",
+      "date": 1586629800692
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "10",
+      "death": "0",
+      "date": 1586716200482
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "10",
+      "death": "0",
+      "date": 1586802600380
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "10",
+      "death": "0",
+      "date": 1586889000434
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "10",
+      "death": "0",
+      "date": 1586975400239
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "10",
+      "death": "0",
+      "date": 1587061800392
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "11",
+      "death": "0",
+      "date": 1587148200557
+    },
+    {
+      "confirmedCases": "14",
+      "cured": "11",
+      "death": "0",
+      "date": 1587234600239
+    },
+    {
+      "confirmedCases": "15",
+      "cured": "11",
+      "death": "0",
+      "date": 1587321000284
+    },
+    {
+      "confirmedCases": "16",
+      "cured": "11",
+      "death": "0",
+      "date": 1587407400224
+    },
+    {
+      "confirmedCases": "17",
+      "cured": "11",
+      "death": "0",
+      "date": 1587493800639
+    },
+    {
+      "confirmedCases": "18",
+      "cured": "11",
+      "death": "0",
+      "date": 1587580200410
+    },
+    {
+      "confirmedCases": "22",
+      "cured": "11",
+      "death": "0",
+      "date": 1587666600455
+    },
+    {
+      "confirmedCases": "27",
+      "cured": "11",
+      "death": "0",
+      "date": 1587753000393
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "11",
+      "death": "0",
+      "date": 1587839400383
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "11",
+      "death": "0",
+      "date": 1587925800180
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "11",
+      "death": "0",
+      "date": 1588012201173
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "15",
+      "death": "0",
+      "date": 1588098600815
     }
   ],
   "Goa": [
@@ -1903,6 +6629,990 @@
       "cured": "0",
       "death": "0",
       "date": 1585593000599
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080699
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800475
+    },
+    {
+      "confirmedCases": "6",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200370
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601229
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000278
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400202
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197804743
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201353
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "0",
+      "date": 1586370600417
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586457000424
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "1",
+      "death": "0",
+      "date": 1586543400686
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "5",
+      "death": "0",
+      "date": 1586629800707
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "5",
+      "death": "0",
+      "date": 1586716200513
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "5",
+      "death": "0",
+      "date": 1586802600400
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "5",
+      "death": "0",
+      "date": 1586889000455
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "5",
+      "death": "0",
+      "date": 1586975400256
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "6",
+      "death": "0",
+      "date": 1587061800433
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "6",
+      "death": "0",
+      "date": 1587148200631
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "6",
+      "death": "0",
+      "date": 1587234600376
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587321000592
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587407400293
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587493800872
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587580200506
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587666600767
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587753000434
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587839400440
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1587925800271
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1588012201645
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "7",
+      "death": "0",
+      "date": 1588098601124
+    }
+  ],
+  "Assam": [
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080688
+    },
+    {
+      "confirmedCases": "5",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800468
+    },
+    {
+      "confirmedCases": "16",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200362
+    },
+    {
+      "confirmedCases": "24",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601221
+    },
+    {
+      "confirmedCases": "26",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000270
+    },
+    {
+      "confirmedCases": "26",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400196
+    },
+    {
+      "confirmedCases": "26",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197802754
+    },
+    {
+      "confirmedCases": "27",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201347
+    },
+    {
+      "confirmedCases": "28",
+      "cured": "0",
+      "death": "0",
+      "date": 1586370600405
+    },
+    {
+      "confirmedCases": "29",
+      "cured": "0",
+      "death": "0",
+      "date": 1586457000415
+    },
+    {
+      "confirmedCases": "29",
+      "cured": "0",
+      "death": "1",
+      "date": 1586543400645
+    },
+    {
+      "confirmedCases": "29",
+      "cured": "0",
+      "death": "1",
+      "date": 1586629800697
+    },
+    {
+      "confirmedCases": "31",
+      "cured": "0",
+      "death": "1",
+      "date": 1586716200484
+    },
+    {
+      "confirmedCases": "31",
+      "cured": "0",
+      "death": "1",
+      "date": 1586802600387
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "0",
+      "death": "1",
+      "date": 1586889000442
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "5",
+      "death": "1",
+      "date": 1586975400247
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "5",
+      "death": "1",
+      "date": 1587061800415
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "9",
+      "death": "1",
+      "date": 1587148200612
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "12",
+      "death": "1",
+      "date": 1587234600361
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "17",
+      "death": "1",
+      "date": 1587321000581
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "19",
+      "death": "1",
+      "date": 1587407400275
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "19",
+      "death": "1",
+      "date": 1587493800850
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "19",
+      "death": "1",
+      "date": 1587580200497
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "19",
+      "death": "1",
+      "date": 1587666600710
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "19",
+      "death": "1",
+      "date": 1587753000425
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "19",
+      "death": "1",
+      "date": 1587839400430
+    },
+    {
+      "confirmedCases": "36",
+      "cured": "27",
+      "death": "1",
+      "date": 1587925800259
+    },
+    {
+      "confirmedCases": "38",
+      "cured": "27",
+      "death": "1",
+      "date": 1588012201594
+    },
+    {
+      "confirmedCases": "38",
+      "cured": "27",
+      "death": "1",
+      "date": 1588098601029
+    }
+  ],
+  "Jharkhand": [
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585681080708
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585765800574
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200375
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601263
+    },
+    {
+      "confirmedCases": "3",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000285
+    },
+    {
+      "confirmedCases": "4",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400314
+    },
+    {
+      "confirmedCases": "4",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197804753
+    },
+    {
+      "confirmedCases": "4",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201361
+    },
+    {
+      "confirmedCases": "13",
+      "cured": "0",
+      "death": "0",
+      "date": 1586370600430
+    },
+    {
+      "confirmedCases": "13",
+      "cured": "0",
+      "death": "1",
+      "date": 1586457000432
+    },
+    {
+      "confirmedCases": "17",
+      "cured": "0",
+      "death": "1",
+      "date": 1586543400704
+    },
+    {
+      "confirmedCases": "17",
+      "cured": "0",
+      "death": "1",
+      "date": 1586629800720
+    },
+    {
+      "confirmedCases": "19",
+      "cured": "0",
+      "death": "2",
+      "date": 1586716200553
+    },
+    {
+      "confirmedCases": "24",
+      "cured": "0",
+      "death": "2",
+      "date": 1586802600409
+    },
+    {
+      "confirmedCases": "27",
+      "cured": "0",
+      "death": "2",
+      "date": 1586889000468
+    },
+    {
+      "confirmedCases": "28",
+      "cured": "0",
+      "death": "2",
+      "date": 1586975400266
+    },
+    {
+      "confirmedCases": "29",
+      "cured": "0",
+      "death": "2",
+      "date": 1587061800441
+    },
+    {
+      "confirmedCases": "33",
+      "cured": "0",
+      "death": "2",
+      "date": 1587148200646
+    },
+    {
+      "confirmedCases": "35",
+      "cured": "0",
+      "death": "2",
+      "date": 1587234600385
+    },
+    {
+      "confirmedCases": "42",
+      "cured": "0",
+      "death": "2",
+      "date": 1587321000811
+    },
+    {
+      "confirmedCases": "46",
+      "cured": "0",
+      "death": "2",
+      "date": 1587407400302
+    },
+    {
+      "confirmedCases": "45",
+      "cured": "0",
+      "death": "3",
+      "date": 1587493800884
+    },
+    {
+      "confirmedCases": "49",
+      "cured": "8",
+      "death": "3",
+      "date": 1587580200739
+    },
+    {
+      "confirmedCases": "55",
+      "cured": "8",
+      "death": "3",
+      "date": 1587666600782
+    },
+    {
+      "confirmedCases": "59",
+      "cured": "9",
+      "death": "3",
+      "date": 1587753000459
+    },
+    {
+      "confirmedCases": "67",
+      "cured": "13",
+      "death": "3",
+      "date": 1587839400460
+    },
+    {
+      "confirmedCases": "82",
+      "cured": "13",
+      "death": "3",
+      "date": 1587925800281
+    },
+    {
+      "confirmedCases": "103",
+      "cured": "17",
+      "death": "3",
+      "date": 1588012201663
+    },
+    {
+      "confirmedCases": "105",
+      "cured": "19",
+      "death": "3",
+      "date": 1588098601240
+    }
+  ],
+  "Arunachal Pradesh": [
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585852200361
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1585938601219
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586025000269
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586111400194
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197802044
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201346
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586370600402
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586457000413
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586543400642
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586629800694
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586716200483
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586802600384
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586889000440
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586975400244
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587061800411
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587148200605
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587234600359
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1587321000579
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1587407400273
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1587493800847
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1587580200495
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1587666600703
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1587753000423
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1587839400428
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1587925800257
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1588012201583
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "1",
+      "death": "0",
+      "date": 1588098601023
+    }
+  ],
+  "Tripura": [
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586197809197
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586284201377
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586370600453
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586457000477
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586543400808
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586629800869
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586716200638
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586802600432
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "0",
+      "death": "0",
+      "date": 1586889000506
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1586975400295
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587061800464
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587148200899
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587234600409
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587321000856
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587407400419
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587493800911
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587580200791
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587666600891
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "1",
+      "death": "0",
+      "date": 1587753000616
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587839400532
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1587925800335
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1588012201865
+    },
+    {
+      "confirmedCases": "2",
+      "cured": "2",
+      "death": "0",
+      "date": 1588098601613
+    }
+  ],
+  "Nagaland": [
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586716200618
+    },
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586802600422
+    },
+    {
+      "confirmedCases": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1586889000487
+    },
+    {
+      "confirmedCases": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1586975400284
+    },
+    {
+      "confirmedCases": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1587061800454
+    },
+    {
+      "confirmedCases": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1587148200680
+    },
+    {
+      "confirmedCases": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1587234600398
+    },
+    {
+      "confirmedCases": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1587321000839
+    },
+    {
+      "confirmedCases": "0",
+      "cured": "0",
+      "death": "0",
+      "date": 1587407400360
+    }
+  ],
+  "Meghalaya": [
+    {
+      "confirmedCases": "1",
+      "cured": "0",
+      "death": "0",
+      "date": 1586802600419
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "1",
+      "date": 1586889000483
+    },
+    {
+      "confirmedCases": "7",
+      "cured": "0",
+      "death": "1",
+      "date": 1586975400280
+    },
+    {
+      "confirmedCases": "9",
+      "cured": "0",
+      "death": "1",
+      "date": 1587061800451
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "0",
+      "death": "1",
+      "date": 1587148200656
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "0",
+      "death": "1",
+      "date": 1587234600395
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "0",
+      "death": "1",
+      "date": 1587321000835
+    },
+    {
+      "confirmedCases": "11",
+      "cured": "0",
+      "death": "1",
+      "date": 1587407400312
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1587493800897
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1587580200752
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1587666600805
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1587753000471
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1587839400508
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1587925800319
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1588012201685
+    },
+    {
+      "confirmedCases": "12",
+      "cured": "0",
+      "death": "1",
+      "date": 1588098601369
     }
   ]
 }

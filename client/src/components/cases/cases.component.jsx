@@ -7,10 +7,11 @@ import Table from '../table/table.component';
 import CardTile from '../cardTile/cardTile.component';
 import Header from '../header/header.component';
 import TotalCases from './totalCases.component';
+import Loader from '../loading/loading.component';
 import { CardContainer } from './cases.styles';
 
 function Cases(){
-
+    const [isLoading, setIsLoading] = useState(true);
     const [latest, setLatest] = useState([]);
     const [states, setStates] = useState([]);
     const [data, setData] = useState([])
@@ -29,6 +30,7 @@ function Cases(){
             setTableData(data);
             setPastData(historyData);
             setTitle("All States");
+            setIsLoading(false);
         }
         else{
             let itemDetails = {};
@@ -66,6 +68,7 @@ function Cases(){
                 const newTotal = parseInt(total.confirmedCases);
                 setNewCases(newTotal - oldTotal);
             }
+            setIsLoading(false);
         }
         getData();
     },[]);
@@ -75,28 +78,42 @@ function Cases(){
     if(len>0)
         str = latest[len-1];
         return(
+        isLoading ? <Loader/> :
         <Fragment>
             <div style={{textAlign:"center"}}>
                 <TotalCases totalCases={totalCases} newCases={newCases}/>
                 <h3>Latest State affected due to Covid-19 in India is {str}</h3>
-                <select id="states" onChange={(e)=>handleChange(e)} style={{marginTop:"30px", marginBottom:"30px",padding:"10px"}}>
+                <select id="states" onChange={(e)=>handleChange(e)} style={{marginTop:"30px", marginBottom:"30px",padding:"10px"}}>                    
                     <option key="table" value="table" defaultValue>All States</option>
                     {
                         states.map((state)=>{
                         return <option key={state} value={state}>{state}</option>
                         })
-                    }
+                    }                
                 </select>
                 {
                     tableData.length===0?<Chart data={filterData}/>:<Table restData = {restData} total={total} data={tableData}/>
                 }
             </div>
             {
-                pastData===undefined || pastData.length===0?''
+                pastData===undefined || pastData.length===0 ? ''
                 :
                 <>
-                    <LineChartComponent color="#8884d8" data={pastData} type="confirmedCases" name="Confirmed Cases"/>
-                    <LineChartComponent color="#ff6347" data={pastData} type="death" name="Death Cases"/>
+                    {
+                        tableData.length === 0
+                        ?
+                        <>
+                            <LineChartComponent color="#8884d8" total={filterData} data={pastData} type="confirmedCases" name="Confirmed Cases"/>
+                            <LineChartComponent color="#ff6347" total ={filterData} data={pastData} type="death" name="Death Cases"/>
+                        </>
+                        :
+                        <>
+                            <LineChartComponent color="#8884d8" total={total} data={pastData} type="confirmedCases" name="Confirmed Cases"/>
+                            <LineChartComponent color="#ff6347" total={total} data={pastData} type="death" name="Death Cases"/>
+                        </>
+                    }
+                    {/* <LineChartComponent color="#8884d8" data={pastData} type="confirmedCases" name="Confirmed Cases"/>
+                    <LineChartComponent color="#ff6347" data={pastData} type="death" name="Death Cases"/> */}
                     <Header title={`${title} History`}/>
                     <CardContainer>                    
                         {
