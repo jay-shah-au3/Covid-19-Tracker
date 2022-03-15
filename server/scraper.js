@@ -41,38 +41,55 @@ async function scrapeData(){
                 obj["no"] = $(children[0]).text();
                 obj["state"] = state;
                 if(len===5){
-                    obj["confirmedCases"] = $(children[2]).text().replace(/\*/g,' ');
-                    obj["cured"] = $(children[3]).text().replace(/\#/g,'').replace(/\*/g,' ');
-                    obj["death"] = $(children[4]).text().replace(/\#/g,'').replace(/\*/g,' ');    
+                    obj["confirmedCases"] = $(children[2]).text().replace(/\*/g,'');
+                    obj["cured"] = $(children[3]).text().replace(/\#/g,'').replace(/\*/g,'');
+                    obj["death"] = $(children[4]).text().replace(/\#/g,'').replace(/\*/g,'');    
                 }
                 else{
-                    let confirmedIndian = $(children[2]).text().replace(/\*/g,' ');
-                    let confirmedForeign = $(children[3]).text().replace(/\*/g,' ');
-                    obj["confirmedIndian"] = confirmedIndian;
-                    obj["confirmedForeign"] = confirmedForeign;
-                    obj["confirmedCases"] = parseInt(confirmedIndian)+parseInt(confirmedForeign);
-                    obj["cured"] = $(children[4]).text().replace(/\#/g,'');
-                    obj["death"] = $(children[5]).text().replace(/\#/g,'');
+                    // let confirmedIndian = $(children[2]).text().replace(/\*/g,'');
+                    // let confirmedForeign = $(children[3]).text().replace(/\*/g,'');
+                    // obj["confirmedIndian"] = confirmedIndian;
+                    // obj["confirmedForeign"] = confirmedForeign;
+                    // obj["confirmedCases"] = parseInt(confirmedIndian)+parseInt(confirmedForeign);
+                    let activeCases = $(children[2]).text().replace(/\*/g,'').replace(/\#/g,'');
+                    obj["activeCases"] = activeCases;
+                    obj["cured"] = $(children[3]).text().replace(/\#/g,'').replace(/\*/g,'');
+                    obj["death"] = $(children[4]).text().replace(/\#/g,'').replace(/\*/g,'');
+                    obj["confirmedCases"] = $(children[5]).text().replace(/\#/g,'').replace(/\*/g,'');
                 }
                 arr.push(obj);
             }
             else{
-                if(len === 4){
-                    total["confirmedCases"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
-                    total["cured"] = $(children[2]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                    total["death"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                let totalKeyword = $(children[1]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                if(totalKeyword.toLowerCase()==='total'){
+                    if(len === 4){
+                        total["confirmedCases"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
+                        total["cured"] = $(children[2]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        total["death"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                    }
+                    else{
+                        total["confirmedCases"] = $(children[5]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                        total["activeCases"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();             
+                        total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        //----------------------------------------------------------------------------------//
+                        // total["confirmedCases"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                        // total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        // total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        //-------------------------------------------------------------------------------//
+                        // let confirmedIndian = $(children[1]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                        // let confirmedForeign = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                        // total["confirmedIndian"] = confirmedIndian;
+                        // total["confirmedForeign"] = confirmedForeign;
+                        // total["confirmedCases"] = parseInt(confirmedIndian) + parseInt(confirmedForeign); 
+                        // total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        // total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        // console.log(len);
+                        // console.log(total);
+                    }
+                    if(!_.isEqual(total,dbTotal))
+                        change = true;
                 }
-                else{
-                    let confirmedIndian = $(children[1]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
-                    let confirmedForeign = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
-                    total["confirmedIndian"] = confirmedIndian;
-                    total["confirmedForeign"] = confirmedForeign;
-                    total["confirmedCases"] = parseInt(confirmedIndian) + parseInt(confirmedForeign); 
-                    total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                    total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                }
-                if(!_.isEqual(total,dbTotal))
-                    change = true;
             }
         }
     });
@@ -109,13 +126,13 @@ async function scraperTwo(){
             obj["confirmedCases"] = el.confirmedCases;
             obj["cured"] = el.cured;
             obj["death"] = el.death;
-            obj["date"] = Date.now()-86400000;
+            obj["date"] = Date.now();
             db.get(state).push(obj).write();
         });
         total["confirmedCases"] = dbTotal.confirmedCases;
         total["cured"] = dbTotal.cured;
         total["death"] = dbTotal.death;
-        total["date"] = Date.now()-86400000;
+        total["date"] = Date.now();
         db.get('historyData').push(total).write();    
     }
     else{
@@ -132,38 +149,85 @@ async function scraperTwo(){
                         obj["death"] = $(children[4]).text().replace(/\#/g,'').replace(/\*/g,' ');    
                     }
                     else{
-                        let confirmedIndian = $(children[2]).text().replace(/\*/g,' ');
-                        let confirmedForeign = $(children[3]).text().replace(/\*/g,' ');
-                        obj["confirmedIndian"] = confirmedIndian;
-                        obj["confirmedForeign"] = confirmedForeign;
-                        obj["confirmedCases"] = parseInt(confirmedIndian)+parseInt(confirmedForeign);
-                        obj["cured"] = $(children[4]).text().replace(/\#/g,'');
-                        obj["death"] = $(children[5]).text().replace(/\#/g,'');    
+                        // let confirmedIndian = $(children[2]).text().replace(/\*/g,' ');
+                        // let confirmedForeign = $(children[3]).text().replace(/\*/g,' ');
+                        // obj["confirmedIndian"] = confirmedIndian;
+                        // obj["confirmedForeign"] = confirmedForeign;
+                        // obj["confirmedCases"] = parseInt(confirmedIndian)+parseInt(confirmedForeign);
+                        // obj["cured"] = $(children[4]).text().replace(/\#/g,'');
+                        // obj["death"] = $(children[5]).text().replace(/\#/g,'');    
+                        //------------------------------------------------------------------------//
+                        // let confirmedIndian = $(children[2]).text().replace(/\*/g,'');
+                        // let confirmedForeign = $(children[3]).text().replace(/\*/g,'');
+                        // obj["confirmedIndian"] = confirmedIndian;
+                        // obj["confirmedForeign"] = confirmedForeign;
+                        // obj["confirmedCases"] = parseInt(confirmedIndian)+parseInt(confirmedForeign);
+                        //-----------------------------------------------------------------------//
+                        let activeCases = $(children[2]).text().replace(/\*/g,'').replace(/\#/g,'');
+                        obj["activeCases"] = activeCases;
+                        obj["cured"] = $(children[3]).text().replace(/\#/g,'').replace(/\*/g,'');
+                        obj["death"] = $(children[4]).text().replace(/\#/g,'').replace(/\*/g,'');
+                        obj["confirmedCases"] = $(children[5]).text().replace(/\#/g,'').replace(/\*/g,'');                        
                     }    
-                    obj["date"] = Date.now()-86400000;                
+                    obj["date"] = Date.now(); 
+                    // console.log(state);
+                    // console.log(obj);               
                     db.get(state).push(obj).write();
                 }
                 else{
-                    if(len === 4){
-                        total["confirmedCases"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
-                        total["cured"] = $(children[2]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                        total["death"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                    }    
-                    else{
-                        let confirmedIndian = $(children[1]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
-                        let confirmedForeign = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
-                        total["confirmedIndian"] = confirmedIndian;
-                        total["confirmedForeign"] = confirmedForeign;
-                        total["confirmedCases"] = parseInt(confirmedIndian) + parseInt(confirmedForeign); 
-                        total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                        total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
-                    }    
-                    total["date"] = Date.now()-86400000;
-                    db.get('historyData').push(total).write();
+                    // if(len === 4){
+                    //     total["confirmedCases"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
+                    //     total["cured"] = $(children[2]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                    //     total["death"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                    // }    
+                    // else{
+                    //     let confirmedIndian = $(children[1]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                    //     let confirmedForeign = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                    //     total["confirmedIndian"] = confirmedIndian;
+                    //     total["confirmedForeign"] = confirmedForeign;
+                    //     total["confirmedCases"] = parseInt(confirmedIndian) + parseInt(confirmedForeign); 
+                    //     total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                    //     total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                    // }    
+
+                    let totalKeyword = $(children[1]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                    if(totalKeyword.toLowerCase()==='total'){
+                        if(len === 4){
+                            total["confirmedCases"] = $(children[1]).text().replace(/\#/g,'').replace(/\*/g,'').trim();
+                            total["cured"] = $(children[2]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                            total["death"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                        }
+                        else{
+                            // total["confirmedCases"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                            // total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                            // total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                            total["confirmedCases"] = $(children[5]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();
+                            total["activeCases"] = $(children[2]).text().replace(/\#/g,'').replace(/\\n/g,'').replace(/\*/g,'').trim();             
+                            total["cured"] = $(children[3]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();
+                            total["death"] = $(children[4]).text().replace(/\\n/g,'').replace(/\#/g,'').trim();                            
+                        }                    
+                        total["date"] = Date.now();
+                        db.get('historyData').push(total).write();                        
+                    }
                 }
             }
         });
     }
 }
+
+// var count = 0;
+// async function scraperThree(){    
+//     if(count < 5){
+//         var dbStates = db.get('states').value();
+//         for(let state of dbStates){
+//             if(db.has(state).value())
+//                 db.get(state).pop().write();
+//         }
+//         count++;
+//         console.log(count);
+//     }
+// }
+
+
 
 module.exports = {scrapeData, scraperTwo};
